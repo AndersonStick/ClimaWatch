@@ -1,73 +1,162 @@
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
+import Toybox.Time;
+import Toybox.Time.Gregorian;
 import Toybox.WatchUi;
 import Toybox.Weather;
-import Toybox.Application.Properties;
+
+class WeatherDisplay {
+    var label;
+    var drawable;
+    var fontColor;
+
+    function initialize(displayLabel, displayDrawable, displayFontColor) {
+        label = displayLabel;
+        drawable = displayDrawable;
+        fontColor = displayFontColor;
+    }
+}
 
 class ClimaWatchView extends WatchUi.WatchFace {
+    const NIGHT_START_HOUR = 19;
+    const NIGHT_END_HOUR = 6;
 
     function initialize() {
         WatchFace.initialize();
     }
 
     function onUpdate(dc as Dc) as Void {
-        // 1. Valores por defecto (Garantiza que SIEMPRE haya un fondo y un color)
-        var weatherString = "Buscando...";
-        var currentBgImage = WatchUi.loadResource(Rez.Drawables.BgNubes);
-        var fontColor = Graphics.COLOR_WHITE; 
+        var clockTime = System.getClockTime();
+        var isNight = isNightTime(clockTime.hour);
+        var weatherDisplay = getWeatherDisplay(isNight);
 
-        var conditions = Weather.getCurrentConditions();
-
-        // 2. Lógica condicional con registro de climas faltantes
-        if (conditions != null && conditions.condition != null) {
-            
-            if (conditions.condition == Weather.CONDITION_CLEAR) {
-                weatherString = "Despejado";
-                currentBgImage = WatchUi.loadResource(Rez.Drawables.BgSol);
-                fontColor = Graphics.COLOR_BLACK; // Contraste oscuro para día soleado
-                
-            } else if (conditions.condition == Weather.CONDITION_RAIN || 
-                       conditions.condition == Weather.CONDITION_DRIZZLE || 
-                       conditions.condition == Weather.CONDITION_SHOWERS) {
-                weatherString = "Lluvia";
-                currentBgImage = WatchUi.loadResource(Rez.Drawables.BgLluvia);
-                fontColor = Graphics.COLOR_WHITE;
-                
-            } else if (conditions.condition == Weather.CONDITION_CLOUDY || 
-                       conditions.condition == Weather.CONDITION_PARTLY_CLOUDY || 
-                       conditions.condition == Weather.CONDITION_MOSTLY_CLOUDY) {
-                weatherString = "Nublado";
-                currentBgImage = WatchUi.loadResource(Rez.Drawables.BgNubes);
-                fontColor = Graphics.COLOR_WHITE;
-                
-            } else {
-                // 3. Capturar climas no mapeados (Ej. Nieve, Viento, Tormenta)
-                weatherString = "Cod: " + conditions.condition;
-                System.println("Falta imagen para el clima código: " + conditions.condition);
-                
-                // Mantiene el fondo por defecto definido al inicio
-            }
-        }
-
-        // Limpiamos la pantalla
         dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_BLACK);
         dc.clear();
 
-        // Dibujar la imagen de fondo (siempre existirá gracias al valor por defecto)
-        if (currentBgImage != null) {
-            dc.drawBitmap(0, 0, currentBgImage);
+        drawBackground(dc, weatherDisplay.drawable);
+
+        dc.setColor(weatherDisplay.fontColor, Graphics.COLOR_TRANSPARENT);
+        drawTime(dc, clockTime);
+        drawDate(dc);
+        drawWeather(dc, weatherDisplay.label);
+    }
+
+    function drawBackground(dc as Dc, drawable) as Void {
+        var background = WatchUi.loadResource(drawable);
+
+        if (background != null) {
+            dc.drawBitmap(0, 0, background);
         }
 
-        // Renderizar la hora
-        var clockTime = System.getClockTime();
-        var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
-        
-        // Aplicamos el color de fuente dinámico
-        dc.setColor(fontColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 - 70, Graphics.FONT_NUMBER_HOT, timeString, Graphics.TEXT_JUSTIFY_CENTER);
+        background = null;
+    }
 
-        // Renderizar el texto del clima
-        dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 + 60, Graphics.FONT_MEDIUM, weatherString, Graphics.TEXT_JUSTIFY_CENTER);
+    function drawTime(dc as Dc, clockTime) as Void {
+        var timeString = Lang.format("$1$:$2$", [
+            clockTime.hour,
+            clockTime.min.format("%02d")
+        ]);
+
+        dc.drawText(
+            dc.getWidth() / 2,
+            dc.getHeight() / 2 - 75,
+            Graphics.FONT_NUMBER_HOT,
+            timeString,
+            Graphics.TEXT_JUSTIFY_CENTER
+        );
+    }
+
+    function drawDate(dc as Dc) as Void {
+        dc.drawText(
+            dc.getWidth() / 2,
+            dc.getHeight() / 2 + 5,
+            Graphics.FONT_MEDIUM,
+            formatFrenchDate(),
+            Graphics.TEXT_JUSTIFY_CENTER
+        );
+    }
+
+    function drawWeather(dc as Dc, weatherText as String) as Void {
+        dc.drawText(
+            dc.getWidth() / 2,
+            dc.getHeight() / 2 + 70,
+            Graphics.FONT_MEDIUM,
+            weatherText,
+            Graphics.TEXT_JUSTIFY_CENTER
+        );
+    }
+
+    function getWeatherDisplay(isNight as Boolean) as WeatherDisplay {
+        var conditions = Weather.getCurrentConditions();
+
+        if (conditions == null || conditions.condition == null) {
+            return new WeatherDisplay("Recherche...", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        var condition = conditions.condition;
+
+        if (condition == Weather.CONDITION_CLEAR) {
+            return new WeatherDisplay("Dégagé", getClearDrawable(isNight), getClearFontColor(isNight));
+        }
+
+        if (condition == Weather.CONDITION_RAIN) {
+            return new WeatherDisplay("Pluie", getRainDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        if (condition == Weather.CONDITION_DRIZZLE) {
+            return new WeatherDisplay("Bruine", getRainDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        if (condition == Weather.CONDITION_SHOWERS) {
+            return new WeatherDisplay("Averses", getRainDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        if (condition == Weather.CONDITION_PARTLY_CLOUDY) {
+            return new WeatherDisplay("Peu nuageux", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        if (condition == Weather.CONDITION_MOSTLY_CLOUDY) {
+            return new WeatherDisplay("Très nuageux", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        if (condition == Weather.CONDITION_CLOUDY) {
+            return new WeatherDisplay("Nuageux", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        System.println("Image météo manquante pour le code: " + condition);
+        return new WeatherDisplay("Météo " + condition, getCloudDrawable(isNight), Graphics.COLOR_WHITE);
+    }
+
+    function isNightTime(hour as Number) as Boolean {
+        return hour >= NIGHT_START_HOUR || hour < NIGHT_END_HOUR;
+    }
+
+    function getClearDrawable(isNight as Boolean) {
+        return isNight ? Rez.Drawables.BgSolNoche : Rez.Drawables.BgSol;
+    }
+
+    function getRainDrawable(isNight as Boolean) {
+        return isNight ? Rez.Drawables.BgLluviaNoche : Rez.Drawables.BgLluvia;
+    }
+
+    function getCloudDrawable(isNight as Boolean) {
+        return isNight ? Rez.Drawables.BgNubesNoche : Rez.Drawables.BgNubes;
+    }
+
+    function getClearFontColor(isNight as Boolean) as Number {
+        return isNight ? Graphics.COLOR_WHITE : Graphics.COLOR_BLACK;
+    }
+
+    function formatFrenchDate() as String {
+        var dateInfo = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var weekdays = ["dim", "lun", "mar", "mer", "jeu", "ven", "sam"];
+        var weekdayIndex = dateInfo.day_of_week - 1;
+
+        if (weekdayIndex < 0 || weekdayIndex >= weekdays.size()) {
+            weekdayIndex = 0;
+        }
+
+        return Lang.format("$1$ $2$", [weekdays[weekdayIndex], dateInfo.day]);
     }
 }

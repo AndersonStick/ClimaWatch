@@ -4,4 +4,7 @@
     <bitmap id="BgSol" filename="sol.jpg" />
     <bitmap id="BgLluvia" filename="lluvia.jpg" />
     <bitmap id="BgNubes" filename="nubes.jpg" />
+    <bitmap id="BgSolNoche" filename="sol_noche.jpg" />
+    <bitmap id="BgLluviaNoche" filename="lluvia_noche.jpg" />
+    <bitmap id="BgNubesNoche" filename="nubes_noche.jpg" />
 </drawables>
