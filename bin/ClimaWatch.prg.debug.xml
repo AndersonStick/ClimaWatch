@@ -15,129 +15,137 @@
         <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="9" lineNum="15" parent="globals/WeatherDisplay" pc="268435567" symbol="initialize"/>
         <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="9" lineNum="16" parent="globals/WeatherDisplay" pc="268435576" symbol="initialize"/>
         <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="9" lineNum="17" parent="globals/WeatherDisplay" pc="268435585" symbol="initialize"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="10" lineNum="258" parent="globals/ClimaWatchView" pc="268435595" symbol="formatFrenchDate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="10" lineNum="259" parent="globals/ClimaWatchView" pc="268435598" symbol="formatFrenchDate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="10" lineNum="260" parent="globals/ClimaWatchView" pc="268435623" symbol="formatFrenchDate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="10" lineNum="261" parent="globals/ClimaWatchView" pc="268435630" symbol="formatFrenchDate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="10" lineNum="263" parent="globals/ClimaWatchView" pc="268435641" symbol="formatFrenchDate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="10" lineNum="264" parent="globals/ClimaWatchView" pc="268435661" symbol="formatFrenchDate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="10" lineNum="267" parent="globals/ClimaWatchView" pc="268435664" symbol="formatFrenchDate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="11" lineNum="56" parent="globals/ClimaWatchView" pc="268435703" symbol="drawTime"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="11" lineNum="57" parent="globals/ClimaWatchView" pc="268435706" symbol="drawTime"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="11" lineNum="62" parent="globals/ClimaWatchView" pc="268435760" symbol="drawTime"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="12" lineNum="91" parent="globals/ClimaWatchView" pc="268435800" symbol="getWeatherDisplay"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="12" lineNum="92" parent="globals/ClimaWatchView" pc="268435803" symbol="getWeatherDisplay"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="12" lineNum="94" parent="globals/ClimaWatchView" pc="268435811" symbol="getWeatherDisplay"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="12" lineNum="95" parent="globals/ClimaWatchView" pc="268435828" symbol="getWeatherDisplay"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="12" lineNum="98" parent="globals/ClimaWatchView" pc="268435846" symbol="getWeatherDisplay"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="12" lineNum="100" parent="globals/ClimaWatchView" pc="268435858" symbol="getWeatherDisplay"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="12" lineNum="101" parent="globals/ClimaWatchView" pc="268435875" symbol="getWeatherDisplay"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="12" lineNum="104" parent="globals/ClimaWatchView" pc="268435914" symbol="getWeatherDisplay"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="141" parent="globals/ClimaWatchView" pc="268435931" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="142" parent="globals/ClimaWatchView" pc="268435933" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="143" parent="globals/ClimaWatchView" pc="268435940" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="146" parent="globals/ClimaWatchView" pc="268435984" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="149" parent="globals/ClimaWatchView" pc="268436008" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="152" parent="globals/ClimaWatchView" pc="268436052" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="156" parent="globals/ClimaWatchView" pc="268436084" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="159" parent="globals/ClimaWatchView" pc="268436123" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="160" parent="globals/ClimaWatchView" pc="268436131" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="163" parent="globals/ClimaWatchView" pc="268436170" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="167" parent="globals/ClimaWatchView" pc="268436202" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="170" parent="globals/ClimaWatchView" pc="268436241" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="171" parent="globals/ClimaWatchView" pc="268436249" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="174" parent="globals/ClimaWatchView" pc="268436288" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="177" parent="globals/ClimaWatchView" pc="268436312" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="180" parent="globals/ClimaWatchView" pc="268436351" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="188" parent="globals/ClimaWatchView" pc="268436415" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="191" parent="globals/ClimaWatchView" pc="268436454" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="200" parent="globals/ClimaWatchView" pc="268436526" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="203" parent="globals/ClimaWatchView" pc="268436565" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="204" parent="globals/ClimaWatchView" pc="268436573" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="207" parent="globals/ClimaWatchView" pc="268436612" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="208" parent="globals/ClimaWatchView" pc="268436620" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="211" parent="globals/ClimaWatchView" pc="268436659" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="214" parent="globals/ClimaWatchView" pc="268436683" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="217" parent="globals/ClimaWatchView" pc="268436722" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="222" parent="globals/ClimaWatchView" pc="268436762" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="225" parent="globals/ClimaWatchView" pc="268436801" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="231" parent="globals/ClimaWatchView" pc="268436849" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="234" parent="globals/ClimaWatchView" pc="268436888" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="235" parent="globals/ClimaWatchView" pc="268436909" symbol="getWeatherDisplayForCondition"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="14" lineNum="242" parent="globals/ClimaWatchView" pc="268436951" symbol="getClearDrawable"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="14" lineNum="243" parent="globals/ClimaWatchView" pc="268436953" symbol="getClearDrawable"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="254" parent="globals/ClimaWatchView" pc="268437000" symbol="getClearFontColor"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="255" parent="globals/ClimaWatchView" pc="268437002" symbol="getClearFontColor"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="16" lineNum="250" parent="globals/ClimaWatchView" pc="268437017" symbol="getCloudDrawable"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="16" lineNum="251" parent="globals/ClimaWatchView" pc="268437019" symbol="getCloudDrawable"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="17" lineNum="46" parent="globals/ClimaWatchView" pc="268437066" symbol="drawBackground"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="17" lineNum="47" parent="globals/ClimaWatchView" pc="268437069" symbol="drawBackground"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="17" lineNum="49" parent="globals/ClimaWatchView" pc="268437085" symbol="drawBackground"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="17" lineNum="50" parent="globals/ClimaWatchView" pc="268437091" symbol="drawBackground"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="17" lineNum="53" parent="globals/ClimaWatchView" pc="268437105" symbol="drawBackground"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="18" lineNum="81" parent="globals/ClimaWatchView" pc="268437109" symbol="drawWeather"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="18" lineNum="82" parent="globals/ClimaWatchView" pc="268437111" symbol="drawWeather"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="107" parent="globals/ClimaWatchView" pc="268437151" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="108" parent="globals/ClimaWatchView" pc="268437154" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="110" parent="globals/ClimaWatchView" pc="268437166" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="111" parent="globals/ClimaWatchView" pc="268437185" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="114" parent="globals/ClimaWatchView" pc="268437187" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="115" parent="globals/ClimaWatchView" pc="268437209" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="116" parent="globals/ClimaWatchView" pc="268437212" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="118" parent="globals/ClimaWatchView" pc="268437215" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="119" parent="globals/ClimaWatchView" pc="268437231" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="121" parent="globals/ClimaWatchView" pc="268437238" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="122" parent="globals/ClimaWatchView" pc="268437266" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="125" parent="globals/ClimaWatchView" pc="268437269" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="126" parent="globals/ClimaWatchView" pc="268437286" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="128" parent="globals/ClimaWatchView" pc="268437290" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="129" parent="globals/ClimaWatchView" pc="268437297" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="132" parent="globals/ClimaWatchView" pc="268437303" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="133" parent="globals/ClimaWatchView" pc="268437317" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="134" parent="globals/ClimaWatchView" pc="268437321" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="138" parent="globals/ClimaWatchView" pc="268437335" symbol="getForecastForOffset"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="20" lineNum="26" parent="globals/ClimaWatchView" pc="268437338" symbol="initialize"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="20" lineNum="27" parent="globals/ClimaWatchView" pc="268437340" symbol="initialize"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="21" lineNum="246" parent="globals/ClimaWatchView" pc="268437353" symbol="getRainDrawable"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="21" lineNum="247" parent="globals/ClimaWatchView" pc="268437355" symbol="getRainDrawable"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="30" parent="globals/ClimaWatchView" pc="268437402" symbol="onUpdate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="31" parent="globals/ClimaWatchView" pc="268437405" symbol="onUpdate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="32" parent="globals/ClimaWatchView" pc="268437417" symbol="onUpdate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="33" parent="globals/ClimaWatchView" pc="268437433" symbol="onUpdate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="35" parent="globals/ClimaWatchView" pc="268437445" symbol="onUpdate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="36" parent="globals/ClimaWatchView" pc="268437458" symbol="onUpdate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="38" parent="globals/ClimaWatchView" pc="268437466" symbol="onUpdate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="40" parent="globals/ClimaWatchView" pc="268437483" symbol="onUpdate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="41" parent="globals/ClimaWatchView" pc="268437501" symbol="onUpdate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="42" parent="globals/ClimaWatchView" pc="268437514" symbol="onUpdate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="43" parent="globals/ClimaWatchView" pc="268437525" symbol="onUpdate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="23" lineNum="71" parent="globals/ClimaWatchView" pc="268437543" symbol="drawDate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="23" lineNum="72" parent="globals/ClimaWatchView" pc="268437545" symbol="drawDate"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="24" lineNum="238" parent="globals/ClimaWatchView" pc="268437589" symbol="isNightTime"/>
-        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="24" lineNum="239" parent="globals/ClimaWatchView" pc="268437591" symbol="isNightTime"/>
-        <entry filename="d:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="25" lineNum="19" parent="globals/Rez/Layouts" pc="268437608" symbol="WatchFace"/>
-        <entry filename="d:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="25" lineNum="20" parent="globals/Rez/Layouts" pc="268437619" symbol="WatchFace"/>
-        <entry filename="d:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="25" lineNum="22" parent="globals/Rez/Layouts" pc="268437735" symbol="WatchFace"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="10" lineNum="258" parent="globals/ClimaWatchView" pc="268435595" symbol="getStormDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="10" lineNum="259" parent="globals/ClimaWatchView" pc="268435597" symbol="getStormDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="11" lineNum="270" parent="globals/ClimaWatchView" pc="268435617" symbol="formatFrenchDate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="11" lineNum="271" parent="globals/ClimaWatchView" pc="268435620" symbol="formatFrenchDate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="11" lineNum="272" parent="globals/ClimaWatchView" pc="268435645" symbol="formatFrenchDate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="11" lineNum="273" parent="globals/ClimaWatchView" pc="268435652" symbol="formatFrenchDate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="11" lineNum="275" parent="globals/ClimaWatchView" pc="268435663" symbol="formatFrenchDate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="11" lineNum="276" parent="globals/ClimaWatchView" pc="268435683" symbol="formatFrenchDate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="11" lineNum="279" parent="globals/ClimaWatchView" pc="268435686" symbol="formatFrenchDate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="12" lineNum="56" parent="globals/ClimaWatchView" pc="268435725" symbol="drawTime"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="12" lineNum="57" parent="globals/ClimaWatchView" pc="268435728" symbol="drawTime"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="12" lineNum="62" parent="globals/ClimaWatchView" pc="268435782" symbol="drawTime"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="91" parent="globals/ClimaWatchView" pc="268435822" symbol="getWeatherDisplay"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="92" parent="globals/ClimaWatchView" pc="268435825" symbol="getWeatherDisplay"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="94" parent="globals/ClimaWatchView" pc="268435833" symbol="getWeatherDisplay"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="95" parent="globals/ClimaWatchView" pc="268435850" symbol="getWeatherDisplay"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="98" parent="globals/ClimaWatchView" pc="268435868" symbol="getWeatherDisplay"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="100" parent="globals/ClimaWatchView" pc="268435880" symbol="getWeatherDisplay"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="101" parent="globals/ClimaWatchView" pc="268435897" symbol="getWeatherDisplay"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="13" lineNum="104" parent="globals/ClimaWatchView" pc="268435936" symbol="getWeatherDisplay"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="14" lineNum="262" parent="globals/ClimaWatchView" pc="268435953" symbol="getWindDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="14" lineNum="263" parent="globals/ClimaWatchView" pc="268435955" symbol="getWindDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="141" parent="globals/ClimaWatchView" pc="268435975" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="142" parent="globals/ClimaWatchView" pc="268435977" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="143" parent="globals/ClimaWatchView" pc="268435984" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="146" parent="globals/ClimaWatchView" pc="268436028" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="149" parent="globals/ClimaWatchView" pc="268436052" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="152" parent="globals/ClimaWatchView" pc="268436096" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="156" parent="globals/ClimaWatchView" pc="268436128" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="159" parent="globals/ClimaWatchView" pc="268436167" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="160" parent="globals/ClimaWatchView" pc="268436175" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="163" parent="globals/ClimaWatchView" pc="268436214" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="167" parent="globals/ClimaWatchView" pc="268436246" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="170" parent="globals/ClimaWatchView" pc="268436285" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="171" parent="globals/ClimaWatchView" pc="268436293" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="174" parent="globals/ClimaWatchView" pc="268436332" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="177" parent="globals/ClimaWatchView" pc="268436356" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="180" parent="globals/ClimaWatchView" pc="268436391" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="188" parent="globals/ClimaWatchView" pc="268436455" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="191" parent="globals/ClimaWatchView" pc="268436494" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="200" parent="globals/ClimaWatchView" pc="268436566" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="203" parent="globals/ClimaWatchView" pc="268436605" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="204" parent="globals/ClimaWatchView" pc="268436613" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="207" parent="globals/ClimaWatchView" pc="268436652" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="208" parent="globals/ClimaWatchView" pc="268436660" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="211" parent="globals/ClimaWatchView" pc="268436699" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="214" parent="globals/ClimaWatchView" pc="268436723" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="217" parent="globals/ClimaWatchView" pc="268436762" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="222" parent="globals/ClimaWatchView" pc="268436802" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="225" parent="globals/ClimaWatchView" pc="268436841" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="231" parent="globals/ClimaWatchView" pc="268436889" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="234" parent="globals/ClimaWatchView" pc="268436924" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="15" lineNum="235" parent="globals/ClimaWatchView" pc="268436945" symbol="getWeatherDisplayForCondition"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="16" lineNum="242" parent="globals/ClimaWatchView" pc="268436987" symbol="getClearDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="16" lineNum="243" parent="globals/ClimaWatchView" pc="268436989" symbol="getClearDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="17" lineNum="266" parent="globals/ClimaWatchView" pc="268437036" symbol="getClearFontColor"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="17" lineNum="267" parent="globals/ClimaWatchView" pc="268437038" symbol="getClearFontColor"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="18" lineNum="250" parent="globals/ClimaWatchView" pc="268437053" symbol="getCloudDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="18" lineNum="251" parent="globals/ClimaWatchView" pc="268437055" symbol="getCloudDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="254" parent="globals/ClimaWatchView" pc="268437102" symbol="getSnowDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="19" lineNum="255" parent="globals/ClimaWatchView" pc="268437104" symbol="getSnowDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="20" lineNum="46" parent="globals/ClimaWatchView" pc="268437151" symbol="drawBackground"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="20" lineNum="47" parent="globals/ClimaWatchView" pc="268437154" symbol="drawBackground"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="20" lineNum="49" parent="globals/ClimaWatchView" pc="268437170" symbol="drawBackground"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="20" lineNum="50" parent="globals/ClimaWatchView" pc="268437176" symbol="drawBackground"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="20" lineNum="53" parent="globals/ClimaWatchView" pc="268437190" symbol="drawBackground"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="21" lineNum="81" parent="globals/ClimaWatchView" pc="268437194" symbol="drawWeather"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="21" lineNum="82" parent="globals/ClimaWatchView" pc="268437196" symbol="drawWeather"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="107" parent="globals/ClimaWatchView" pc="268437236" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="108" parent="globals/ClimaWatchView" pc="268437239" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="110" parent="globals/ClimaWatchView" pc="268437251" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="111" parent="globals/ClimaWatchView" pc="268437270" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="114" parent="globals/ClimaWatchView" pc="268437272" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="115" parent="globals/ClimaWatchView" pc="268437294" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="116" parent="globals/ClimaWatchView" pc="268437297" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="118" parent="globals/ClimaWatchView" pc="268437300" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="119" parent="globals/ClimaWatchView" pc="268437316" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="121" parent="globals/ClimaWatchView" pc="268437323" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="122" parent="globals/ClimaWatchView" pc="268437351" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="125" parent="globals/ClimaWatchView" pc="268437354" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="126" parent="globals/ClimaWatchView" pc="268437371" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="128" parent="globals/ClimaWatchView" pc="268437375" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="129" parent="globals/ClimaWatchView" pc="268437382" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="132" parent="globals/ClimaWatchView" pc="268437388" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="133" parent="globals/ClimaWatchView" pc="268437402" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="134" parent="globals/ClimaWatchView" pc="268437406" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="22" lineNum="138" parent="globals/ClimaWatchView" pc="268437420" symbol="getForecastForOffset"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="23" lineNum="26" parent="globals/ClimaWatchView" pc="268437423" symbol="initialize"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="23" lineNum="27" parent="globals/ClimaWatchView" pc="268437425" symbol="initialize"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="24" lineNum="246" parent="globals/ClimaWatchView" pc="268437438" symbol="getRainDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="24" lineNum="247" parent="globals/ClimaWatchView" pc="268437440" symbol="getRainDrawable"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="25" lineNum="30" parent="globals/ClimaWatchView" pc="268437487" symbol="onUpdate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="25" lineNum="31" parent="globals/ClimaWatchView" pc="268437490" symbol="onUpdate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="25" lineNum="32" parent="globals/ClimaWatchView" pc="268437502" symbol="onUpdate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="25" lineNum="33" parent="globals/ClimaWatchView" pc="268437518" symbol="onUpdate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="25" lineNum="35" parent="globals/ClimaWatchView" pc="268437530" symbol="onUpdate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="25" lineNum="36" parent="globals/ClimaWatchView" pc="268437543" symbol="onUpdate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="25" lineNum="38" parent="globals/ClimaWatchView" pc="268437551" symbol="onUpdate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="25" lineNum="40" parent="globals/ClimaWatchView" pc="268437568" symbol="onUpdate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="25" lineNum="41" parent="globals/ClimaWatchView" pc="268437586" symbol="onUpdate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="25" lineNum="42" parent="globals/ClimaWatchView" pc="268437599" symbol="onUpdate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="25" lineNum="43" parent="globals/ClimaWatchView" pc="268437610" symbol="onUpdate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="26" lineNum="71" parent="globals/ClimaWatchView" pc="268437628" symbol="drawDate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="26" lineNum="72" parent="globals/ClimaWatchView" pc="268437630" symbol="drawDate"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="27" lineNum="238" parent="globals/ClimaWatchView" pc="268437674" symbol="isNightTime"/>
+        <entry filename="D:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\source\\ClimaWatchView.mc" id="27" lineNum="239" parent="globals/ClimaWatchView" pc="268437676" symbol="isNightTime"/>
+        <entry filename="d:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="28" lineNum="23" parent="globals/Rez/Layouts" pc="268437693" symbol="WatchFace"/>
+        <entry filename="d:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="28" lineNum="24" parent="globals/Rez/Layouts" pc="268437704" symbol="WatchFace"/>
+        <entry filename="d:\\ProgramacionAutodidacta\\Garmin\\Meteo\\ClimaWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="28" lineNum="26" parent="globals/Rez/Layouts" pc="268437820" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="24" symbol="BgLluvia"/>
+        <entry field="true" id="27" symbol="BgLluvia"/>
+        <entry id="25" method="true" symbol="getWindDrawable"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="12" method="true" symbol="drawDate"/>
         <entry id="14" method="true" symbol="drawWeather"/>
         <entry id="17" method="true" symbol="getClearFontColor"/>
         <entry id="18" method="true" symbol="getCloudDrawable"/>
-        <entry id="23" method="true" symbol="isNightTime"/>
+        <entry id="26" method="true" symbol="isNightTime"/>
         <entry id="8" object="true" symbol="WeatherDisplay"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
-        <entry field="true" id="25" symbol="BgLluviaNoche"/>
+        <entry field="true" id="28" symbol="BgLluviaNoche"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry id="13" method="true" symbol="drawTime"/>
-        <entry field="true" id="31" symbol="AppName"/>
+        <entry field="true" id="38" symbol="AppName"/>
         <entry id="5" module="true" symbol="globals/Rez/Strings"/>
-        <entry id="21" method="true" symbol="getWeatherDisplay"/>
+        <entry id="23" method="true" symbol="getWeatherDisplay"/>
         <entry field="true" id="8390756" symbol="drawable"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="36" symbol="BgViento"/>
         <entry field="true" id="8389138" symbol="label"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
         <entry id="7" object="true" symbol="ClimaWatchView"/>
@@ -149,35 +157,40 @@
         <entry id="8391489" module="true" symbol="Weather"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
+        <entry id="21" method="true" symbol="getSnowDrawable"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
         <entry id="16" method="true" symbol="getClearDrawable"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="26" symbol="BgNubes"/>
+        <entry field="true" id="31" symbol="BgNubes"/>
+        <entry field="true" id="30" symbol="BgNieveNoche"/>
         <entry id="11" method="true" symbol="drawBackground"/>
-        <entry field="true" id="29" symbol="BgSolNoche"/>
+        <entry field="true" id="34" symbol="BgSolNoche"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="19" method="true" symbol="getForecastForOffset"/>
-        <entry field="true" id="28" symbol="BgSol"/>
+        <entry field="true" id="35" symbol="BgTormenta"/>
+        <entry field="true" id="33" symbol="BgSol"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="30" symbol="LauncherIcon"/>
+        <entry field="true" id="29" symbol="BgNieveDia"/>
+        <entry field="true" id="37" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry field="true" id="9" symbol="fontColor"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="22" method="true" symbol="getWeatherDisplayForCondition"/>
+        <entry id="24" method="true" symbol="getWeatherDisplayForCondition"/>
         <entry id="15" method="true" symbol="formatFrenchDate"/>
+        <entry id="22" method="true" symbol="getStormDrawable"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="6" object="true" symbol="ClimaWatchApp"/>
         <entry field="true" id="8389347" symbol="color"/>
-        <entry field="true" id="27" symbol="BgNubesNoche"/>
+        <entry field="true" id="32" symbol="BgNubesNoche"/>
         <entry id="10" module="true" symbol="Layouts"/>
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
@@ -185,39 +198,44 @@
         <entry arg="true" endPc="268435594" name="displayLabel" stackId="1" startPc="268435565"/>
         <entry arg="true" endPc="268435594" name="displayDrawable" stackId="2" startPc="268435565"/>
         <entry arg="true" endPc="268435594" name="displayFontColor" stackId="3" startPc="268435565"/>
-        <entry arg="true" endPc="268435799" name="dc" stackId="1" startPc="268435703"/>
-        <entry arg="true" endPc="268435799" name="clockTime" stackId="2" startPc="268435703"/>
-        <entry endPc="268435798" name="timeString" stackId="3" startPc="268435706"/>
-        <entry arg="true" endPc="268435930" name="isNight" stackId="1" startPc="268435800"/>
-        <entry arg="true" endPc="268436950" name="condition" stackId="1" startPc="268435931"/>
-        <entry arg="true" endPc="268436950" name="isNight" stackId="2" startPc="268435931"/>
-        <entry arg="true" endPc="268436999" name="isNight" stackId="1" startPc="268436951"/>
-        <entry arg="true" endPc="268437016" name="isNight" stackId="1" startPc="268437000"/>
-        <entry arg="true" endPc="268437065" name="isNight" stackId="1" startPc="268437017"/>
-        <entry arg="true" endPc="268437108" name="dc" stackId="1" startPc="268437066"/>
-        <entry arg="true" endPc="268437108" name="drawable" stackId="2" startPc="268437066"/>
-        <entry endPc="268437107" name="background" stackId="3" startPc="268437069"/>
-        <entry arg="true" endPc="268437150" name="dc" stackId="1" startPc="268437109"/>
-        <entry arg="true" endPc="268437150" name="weatherText" stackId="2" startPc="268437109"/>
-        <entry endPc="268437334" name="i" stackId="5" startPc="268437231"/>
-        <entry endPc="268437324" name="forecast" stackId="6" startPc="268437231"/>
-        <entry endPc="268437324" name="distance" stackId="7" startPc="268437231"/>
-        <entry endPc="268437324" name="absoluteDistance" stackId="8" startPc="268437231"/>
-        <entry arg="true" endPc="268437401" name="isNight" stackId="1" startPc="268437353"/>
-        <entry arg="true" endPc="268437542" name="dc" stackId="1" startPc="268437402"/>
-        <entry endPc="268437541" name="clockTime" stackId="2" startPc="268437405"/>
-        <entry endPc="268437541" name="isNight" stackId="3" startPc="268437405"/>
-        <entry endPc="268437541" name="weatherDisplay" stackId="4" startPc="268437405"/>
-        <entry arg="true" endPc="268437588" name="dc" stackId="1" startPc="268437543"/>
-        <entry arg="true" endPc="268437607" name="hour" stackId="1" startPc="268437589"/>
-        <entry arg="true" endPc="268437744" name="dc" stackId="1" startPc="268437608"/>
+        <entry arg="true" endPc="268435821" name="dc" stackId="1" startPc="268435725"/>
+        <entry arg="true" endPc="268435821" name="clockTime" stackId="2" startPc="268435725"/>
+        <entry endPc="268435820" name="timeString" stackId="3" startPc="268435728"/>
+        <entry arg="true" endPc="268435952" name="isNight" stackId="1" startPc="268435822"/>
+        <entry arg="true" endPc="268436986" name="condition" stackId="1" startPc="268435975"/>
+        <entry arg="true" endPc="268436986" name="isNight" stackId="2" startPc="268435975"/>
+        <entry arg="true" endPc="268437035" name="isNight" stackId="1" startPc="268436987"/>
+        <entry arg="true" endPc="268437052" name="isNight" stackId="1" startPc="268437036"/>
+        <entry arg="true" endPc="268437101" name="isNight" stackId="1" startPc="268437053"/>
+        <entry arg="true" endPc="268437150" name="isNight" stackId="1" startPc="268437102"/>
+        <entry arg="true" endPc="268437193" name="dc" stackId="1" startPc="268437151"/>
+        <entry arg="true" endPc="268437193" name="drawable" stackId="2" startPc="268437151"/>
+        <entry endPc="268437192" name="background" stackId="3" startPc="268437154"/>
+        <entry arg="true" endPc="268437235" name="dc" stackId="1" startPc="268437194"/>
+        <entry arg="true" endPc="268437235" name="weatherText" stackId="2" startPc="268437194"/>
+        <entry endPc="268437419" name="i" stackId="5" startPc="268437316"/>
+        <entry endPc="268437409" name="forecast" stackId="6" startPc="268437316"/>
+        <entry endPc="268437409" name="distance" stackId="7" startPc="268437316"/>
+        <entry endPc="268437409" name="absoluteDistance" stackId="8" startPc="268437316"/>
+        <entry arg="true" endPc="268437486" name="isNight" stackId="1" startPc="268437438"/>
+        <entry arg="true" endPc="268437627" name="dc" stackId="1" startPc="268437487"/>
+        <entry endPc="268437626" name="clockTime" stackId="2" startPc="268437490"/>
+        <entry endPc="268437626" name="isNight" stackId="3" startPc="268437490"/>
+        <entry endPc="268437626" name="weatherDisplay" stackId="4" startPc="268437490"/>
+        <entry arg="true" endPc="268437673" name="dc" stackId="1" startPc="268437628"/>
+        <entry arg="true" endPc="268437692" name="hour" stackId="1" startPc="268437674"/>
+        <entry arg="true" endPc="268437829" name="dc" stackId="1" startPc="268437693"/>
     </localVars>
     <deviceInfo deviceVersion="3d0fb192a2cf01699aefd0f384af3f527e5885bd" partNumber="006-B4426-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BgLluviaNoche"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BgNieveDia"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BgNieveNoche"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BgViento"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BgNubesNoche"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BgNubes"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BgTormenta"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BgSolNoche"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BgLluvia"/>
@@ -229,9 +247,9 @@
         <dataEntry label="globals/WeatherDisplay" offset="205" parentId="globals" symbolId="WeatherDisplay" type="class"/>
         <dataEntry label="globals/Rez" offset="276" parentId="globals" symbolId="Rez" type="module"/>
         <dataEntry label="globals/ClimaWatchView" offset="329" parentId="globals" symbolId="ClimaWatchView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="499" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="588" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="623" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="526" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="651" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="686" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435468" name="&lt;init&gt;" parent="ClimaWatchApp" startPc="268435457">
@@ -278,68 +296,78 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435702" name="formatFrenchDate" parent="ClimaWatchView" startPc="268435595">
+        <functionEntry accessMode="public" endPc="268435616" name="getStormDrawable" parent="ClimaWatchView" startPc="268435595">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435799" name="drawTime" parent="ClimaWatchView" startPc="268435703">
+        <functionEntry accessMode="public" endPc="268435724" name="formatFrenchDate" parent="ClimaWatchView" startPc="268435617">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435821" name="drawTime" parent="ClimaWatchView" startPc="268435725">
             <param id="dc"/>
             <param id="clockTime"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435930" name="getWeatherDisplay" parent="ClimaWatchView" startPc="268435800">
+        <functionEntry accessMode="public" endPc="268435952" name="getWeatherDisplay" parent="ClimaWatchView" startPc="268435822">
             <param id="isNight"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436950" name="getWeatherDisplayForCondition" parent="ClimaWatchView" startPc="268435931">
+        <functionEntry accessMode="public" endPc="268435974" name="getWindDrawable" parent="ClimaWatchView" startPc="268435953">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436986" name="getWeatherDisplayForCondition" parent="ClimaWatchView" startPc="268435975">
             <param id="condition"/>
             <param id="isNight"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436999" name="getClearDrawable" parent="ClimaWatchView" startPc="268436951">
+        <functionEntry accessMode="public" endPc="268437035" name="getClearDrawable" parent="ClimaWatchView" startPc="268436987">
             <param id="isNight"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437016" name="getClearFontColor" parent="ClimaWatchView" startPc="268437000">
+        <functionEntry accessMode="public" endPc="268437052" name="getClearFontColor" parent="ClimaWatchView" startPc="268437036">
             <param id="isNight"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437065" name="getCloudDrawable" parent="ClimaWatchView" startPc="268437017">
+        <functionEntry accessMode="public" endPc="268437101" name="getCloudDrawable" parent="ClimaWatchView" startPc="268437053">
             <param id="isNight"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437108" name="drawBackground" parent="ClimaWatchView" startPc="268437066">
+        <functionEntry accessMode="public" endPc="268437150" name="getSnowDrawable" parent="ClimaWatchView" startPc="268437102">
+            <param id="isNight"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437193" name="drawBackground" parent="ClimaWatchView" startPc="268437151">
             <param id="dc"/>
             <param id="drawable"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437150" name="drawWeather" parent="ClimaWatchView" startPc="268437109">
+        <functionEntry accessMode="public" endPc="268437235" name="drawWeather" parent="ClimaWatchView" startPc="268437194">
             <param id="dc"/>
             <param id="weatherText"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437337" name="getForecastForOffset" parent="ClimaWatchView" startPc="268437151">
+        <functionEntry accessMode="public" endPc="268437422" name="getForecastForOffset" parent="ClimaWatchView" startPc="268437236">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437352" name="initialize" parent="ClimaWatchView" startPc="268437338">
+        <functionEntry accessMode="public" endPc="268437437" name="initialize" parent="ClimaWatchView" startPc="268437423">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437401" name="getRainDrawable" parent="ClimaWatchView" startPc="268437353">
+        <functionEntry accessMode="public" endPc="268437486" name="getRainDrawable" parent="ClimaWatchView" startPc="268437438">
             <param id="isNight"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437542" name="onUpdate" parent="ClimaWatchView" startPc="268437402">
+        <functionEntry accessMode="public" endPc="268437627" name="onUpdate" parent="ClimaWatchView" startPc="268437487">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437588" name="drawDate" parent="ClimaWatchView" startPc="268437543">
+        <functionEntry accessMode="public" endPc="268437673" name="drawDate" parent="ClimaWatchView" startPc="268437628">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437607" name="isNightTime" parent="ClimaWatchView" startPc="268437589">
+        <functionEntry accessMode="public" endPc="268437692" name="isNightTime" parent="ClimaWatchView" startPc="268437674">
             <param id="hour"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437744" name="WatchFace" parent="Layouts" startPc="268437608">
+        <functionEntry accessMode="public" endPc="268437829" name="WatchFace" parent="Layouts" startPc="268437693">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
