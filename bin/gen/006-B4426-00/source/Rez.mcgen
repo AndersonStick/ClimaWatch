@@ -9,6 +9,9 @@ module Rez {
         (:initialized) var BgSol as ResourceId;
         (:initialized) var BgLluvia as ResourceId;
         (:initialized) var BgNubes as ResourceId;
+        (:initialized) var BgSolNoche as ResourceId;
+        (:initialized) var BgLluviaNoche as ResourceId;
+        (:initialized) var BgNubesNoche as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 

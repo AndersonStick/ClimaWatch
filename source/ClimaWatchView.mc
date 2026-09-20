@@ -21,6 +21,7 @@ class WeatherDisplay {
 class ClimaWatchView extends WatchUi.WatchFace {
     const NIGHT_START_HOUR = 19;
     const NIGHT_END_HOUR = 6;
+    const FORECAST_OFFSET_SECONDS = 1800;
 
     function initialize() {
         WatchFace.initialize();
@@ -60,7 +61,7 @@ class ClimaWatchView extends WatchUi.WatchFace {
 
         dc.drawText(
             dc.getWidth() / 2,
-            dc.getHeight() / 2 - 75,
+            dc.getHeight() / 2 - 90,
             Graphics.FONT_NUMBER_HOT,
             timeString,
             Graphics.TEXT_JUSTIFY_CENTER
@@ -70,7 +71,7 @@ class ClimaWatchView extends WatchUi.WatchFace {
     function drawDate(dc as Dc) as Void {
         dc.drawText(
             dc.getWidth() / 2,
-            dc.getHeight() / 2 + 5,
+            dc.getHeight() / 2 + 25,
             Graphics.FONT_MEDIUM,
             formatFrenchDate(),
             Graphics.TEXT_JUSTIFY_CENTER
@@ -80,7 +81,7 @@ class ClimaWatchView extends WatchUi.WatchFace {
     function drawWeather(dc as Dc, weatherText as String) as Void {
         dc.drawText(
             dc.getWidth() / 2,
-            dc.getHeight() / 2 + 70,
+            dc.getHeight() / 2 + 85,
             Graphics.FONT_MEDIUM,
             weatherText,
             Graphics.TEXT_JUSTIFY_CENTER
@@ -88,19 +89,70 @@ class ClimaWatchView extends WatchUi.WatchFace {
     }
 
     function getWeatherDisplay(isNight as Boolean) as WeatherDisplay {
+        var forecast = getForecastForOffset();
+
+        if (forecast != null && forecast.condition != null) {
+            return getWeatherDisplayForCondition(forecast.condition, isNight);
+        }
+
         var conditions = Weather.getCurrentConditions();
 
         if (conditions == null || conditions.condition == null) {
             return new WeatherDisplay("Recherche...", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
         }
 
-        var condition = conditions.condition;
+        return getWeatherDisplayForCondition(conditions.condition, isNight);
+    }
 
+    function getForecastForOffset() {
+        var hourlyForecast = Weather.getHourlyForecast();
+
+        if (hourlyForecast == null || hourlyForecast.size() == 0) {
+            return null;
+        }
+
+        var targetTime = Time.now().value() + FORECAST_OFFSET_SECONDS;
+        var closestForecast = null;
+        var closestDistance = null;
+
+        for (var i = 0; i < hourlyForecast.size(); i++) {
+            var forecast = hourlyForecast[i];
+
+            if (forecast == null || forecast.condition == null || forecast.forecastTime == null) {
+                continue;
+            }
+
+            var distance = forecast.forecastTime.value() - targetTime;
+            var absoluteDistance = distance;
+
+            if (absoluteDistance < 0) {
+                absoluteDistance = -absoluteDistance;
+            }
+
+            if (closestDistance == null || absoluteDistance < closestDistance) {
+                closestForecast = forecast;
+                closestDistance = absoluteDistance;
+            }
+        }
+
+        return closestForecast;
+    }
+
+    function getWeatherDisplayForCondition(condition, isNight as Boolean) as WeatherDisplay {
         if (condition == Weather.CONDITION_CLEAR) {
             return new WeatherDisplay("Dégagé", getClearDrawable(isNight), getClearFontColor(isNight));
         }
 
-        if (condition == Weather.CONDITION_RAIN) {
+        if (condition == Weather.CONDITION_MOSTLY_CLEAR ||
+            condition == Weather.CONDITION_PARTLY_CLEAR ||
+            condition == Weather.CONDITION_FAIR) {
+            return new WeatherDisplay("Dégagé", getClearDrawable(isNight), getClearFontColor(isNight));
+        }
+
+        if (condition == Weather.CONDITION_RAIN ||
+            condition == Weather.CONDITION_LIGHT_RAIN ||
+            condition == Weather.CONDITION_HEAVY_RAIN ||
+            condition == Weather.CONDITION_CLOUDY_CHANCE_OF_RAIN) {
             return new WeatherDisplay("Pluie", getRainDrawable(isNight), Graphics.COLOR_WHITE);
         }
 
@@ -108,8 +160,44 @@ class ClimaWatchView extends WatchUi.WatchFace {
             return new WeatherDisplay("Bruine", getRainDrawable(isNight), Graphics.COLOR_WHITE);
         }
 
-        if (condition == Weather.CONDITION_SHOWERS) {
+        if (condition == Weather.CONDITION_SHOWERS ||
+            condition == Weather.CONDITION_LIGHT_SHOWERS ||
+            condition == Weather.CONDITION_HEAVY_SHOWERS ||
+            condition == Weather.CONDITION_SCATTERED_SHOWERS) {
             return new WeatherDisplay("Averses", getRainDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        if (condition == Weather.CONDITION_CHANCE_OF_SHOWERS) {
+            return new WeatherDisplay("Risque pluie", getRainDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        if (condition == Weather.CONDITION_THUNDERSTORMS ||
+            condition == Weather.CONDITION_SCATTERED_THUNDERSTORMS ||
+            condition == Weather.CONDITION_CHANCE_OF_THUNDERSTORMS) {
+            return new WeatherDisplay("Orage", getRainDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        if (condition == Weather.CONDITION_UNKNOWN_PRECIPITATION ||
+            condition == Weather.CONDITION_WINTRY_MIX ||
+            condition == Weather.CONDITION_RAIN_SNOW ||
+            condition == Weather.CONDITION_LIGHT_RAIN_SNOW ||
+            condition == Weather.CONDITION_HEAVY_RAIN_SNOW ||
+            condition == Weather.CONDITION_CHANCE_OF_RAIN_SNOW ||
+            condition == Weather.CONDITION_FREEZING_RAIN ||
+            condition == Weather.CONDITION_SLEET) {
+            return new WeatherDisplay("Précip.", getRainDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        if (condition == Weather.CONDITION_SNOW ||
+            condition == Weather.CONDITION_LIGHT_SNOW ||
+            condition == Weather.CONDITION_HEAVY_SNOW ||
+            condition == Weather.CONDITION_CHANCE_OF_SNOW ||
+            condition == Weather.CONDITION_FLURRIES ||
+            condition == Weather.CONDITION_CLOUDY_CHANCE_OF_SNOW ||
+            condition == Weather.CONDITION_ICE ||
+            condition == Weather.CONDITION_ICE_SNOW ||
+            condition == Weather.CONDITION_HAIL) {
+            return new WeatherDisplay("Neige", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
         }
 
         if (condition == Weather.CONDITION_PARTLY_CLOUDY) {
@@ -120,8 +208,27 @@ class ClimaWatchView extends WatchUi.WatchFace {
             return new WeatherDisplay("Très nuageux", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
         }
 
-        if (condition == Weather.CONDITION_CLOUDY) {
+        if (condition == Weather.CONDITION_CLOUDY ||
+            condition == Weather.CONDITION_THIN_CLOUDS ||
+            condition == Weather.CONDITION_CLOUDY_CHANCE_OF_RAIN_SNOW) {
             return new WeatherDisplay("Nuageux", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        if (condition == Weather.CONDITION_FOG ||
+            condition == Weather.CONDITION_HAZY ||
+            condition == Weather.CONDITION_HAZE ||
+            condition == Weather.CONDITION_MIST ||
+            condition == Weather.CONDITION_SMOKE) {
+            return new WeatherDisplay("Brume", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
+        }
+
+        if (condition == Weather.CONDITION_WINDY ||
+            condition == Weather.CONDITION_DUST ||
+            condition == Weather.CONDITION_SAND ||
+            condition == Weather.CONDITION_SQUALL ||
+            condition == Weather.CONDITION_SANDSTORM ||
+            condition == Weather.CONDITION_VOLCANIC_ASH) {
+            return new WeatherDisplay("Vent", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
         }
 
         System.println("Image météo manquante pour le code: " + condition);
