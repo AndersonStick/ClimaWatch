@@ -4,6 +4,10 @@
     <bitmap id="BgSol" filename="sol.jpg" />
     <bitmap id="BgLluvia" filename="lluvia.jpg" />
     <bitmap id="BgNubes" filename="nubes.jpg" />
+    <bitmap id="BgNieveDia" filename="nieve_dia.jpg" />
+    <bitmap id="BgNieveNoche" filename="nieve_noche.jpg" />
+    <bitmap id="BgTormenta" filename="tormenta_electrica.jpg" />
+    <bitmap id="BgViento" filename="viento.jpg" />
     <bitmap id="BgSolNoche" filename="sol_noche.jpg" />
     <bitmap id="BgLluviaNoche" filename="lluvia_noche.jpg" />
     <bitmap id="BgNubesNoche" filename="nubes_noche.jpg" />

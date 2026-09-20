@@ -174,7 +174,7 @@ class ClimaWatchView extends WatchUi.WatchFace {
         if (condition == Weather.CONDITION_THUNDERSTORMS ||
             condition == Weather.CONDITION_SCATTERED_THUNDERSTORMS ||
             condition == Weather.CONDITION_CHANCE_OF_THUNDERSTORMS) {
-            return new WeatherDisplay("Orage", getRainDrawable(isNight), Graphics.COLOR_WHITE);
+            return new WeatherDisplay("Orage", getStormDrawable(), Graphics.COLOR_WHITE);
         }
 
         if (condition == Weather.CONDITION_UNKNOWN_PRECIPITATION ||
@@ -197,7 +197,7 @@ class ClimaWatchView extends WatchUi.WatchFace {
             condition == Weather.CONDITION_ICE ||
             condition == Weather.CONDITION_ICE_SNOW ||
             condition == Weather.CONDITION_HAIL) {
-            return new WeatherDisplay("Neige", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
+            return new WeatherDisplay("Neige", getSnowDrawable(isNight), Graphics.COLOR_WHITE);
         }
 
         if (condition == Weather.CONDITION_PARTLY_CLOUDY) {
@@ -228,7 +228,7 @@ class ClimaWatchView extends WatchUi.WatchFace {
             condition == Weather.CONDITION_SQUALL ||
             condition == Weather.CONDITION_SANDSTORM ||
             condition == Weather.CONDITION_VOLCANIC_ASH) {
-            return new WeatherDisplay("Vent", getCloudDrawable(isNight), Graphics.COLOR_WHITE);
+            return new WeatherDisplay("Vent", getWindDrawable(), Graphics.COLOR_WHITE);
         }
 
         System.println("Image météo manquante pour le code: " + condition);
@@ -249,6 +249,18 @@ class ClimaWatchView extends WatchUi.WatchFace {
 
     function getCloudDrawable(isNight as Boolean) {
         return isNight ? Rez.Drawables.BgNubesNoche : Rez.Drawables.BgNubes;
+    }
+
+    function getSnowDrawable(isNight as Boolean) {
+        return isNight ? Rez.Drawables.BgNieveNoche : Rez.Drawables.BgNieveDia;
+    }
+
+    function getStormDrawable() {
+        return Rez.Drawables.BgTormenta;
+    }
+
+    function getWindDrawable() {
+        return Rez.Drawables.BgViento;
     }
 
     function getClearFontColor(isNight as Boolean) as Number {
