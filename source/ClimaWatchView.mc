@@ -10,12 +10,12 @@ class ClimaWatchView extends WatchUi.WatchFace {
     // 1. CONSTANTES MÁGICAS CENTRALIZADAS (Legibilidad y mantenibilidad)
     private const NIGHT_START_HOUR = 19;
     private const NIGHT_END_HOUR = 6;
-    private const FORECAST_OFFSET_SECONDS = 1800;
+    private const FORECAST_OFFSET_SECONDS = 1800; // 30 minutos al futuro
 
     // Arreglo constante estático para evitar instanciación por minuto
     private const DAYS_FR = ["dim", "lun", "mar", "mer", "jeu", "ven", "sam"] as Array<String>;
 
-    // 2. SISTEMA DE CACHÉ (Vital para ahorrar RAM y Batería)
+    // 2. SISTEMA DE CACHÉ (Vital para ahorrar RAM y Batería de la AMOLED)
     private var _cachedBitmap = null;
     private var _cachedDrawableId = null;
     private var _cachedWeatherText as String = "Recherche...";
@@ -92,6 +92,7 @@ class ClimaWatchView extends WatchUi.WatchFace {
         }
     }
 
+    // Predicción exacta a 30 minutos sumando 1800 segundos
     private function getForecastForOffset() as Weather.HourlyForecast? {
         var hourlyForecast = Weather.getHourlyForecast();
         if (hourlyForecast == null || hourlyForecast.size() == 0) {
@@ -118,11 +119,11 @@ class ClimaWatchView extends WatchUi.WatchFace {
         return closestForecast;
     }
 
-    // 6. REFACTORIZACIÓN A SENTENCIAS SWITCH (Más rápido y legible)
+    // 6. SENTENCIAS SWITCH PARA FONDOS DINÁMICOS Y CONTRASTE
     private function applyWeatherCondition(condition as Number, isNight as Boolean) as Void {
         var newDrawableId = null;
         var newText = "";
-        var newColor = Graphics.COLOR_WHITE;
+        var newColor = Graphics.COLOR_WHITE; // Por defecto blanco para fondos oscuros
 
         switch(condition) {
             case Weather.CONDITION_CLEAR:
@@ -131,7 +132,8 @@ class ClimaWatchView extends WatchUi.WatchFace {
             case Weather.CONDITION_FAIR:
                 newText = "Dégagé";
                 newDrawableId = isNight ? Rez.Drawables.BgSolNoche : Rez.Drawables.BgSol;
-                newColor = isNight ? Graphics.COLOR_WHITE : Graphics.COLOR_BLACK;
+                // Si es de día y está despejado (fondo claro), la letra cambia a negro
+                newColor = isNight ? Graphics.COLOR_WHITE : Graphics.COLOR_BLACK; 
                 break;
 
             case Weather.CONDITION_RAIN:
@@ -209,12 +211,6 @@ class ClimaWatchView extends WatchUi.WatchFace {
                 newDrawableId = isNight ? Rez.Drawables.BgNubesNoche : Rez.Drawables.BgNubes;
                 break;
         }
-
-        // --- INICIO DEL HACK TEMPORAL PARA EL VIDEO ---
-        newDrawableId = Rez.Drawables.BgSol; 
-        newText = "Dégagé";
-        newColor = Graphics.COLOR_BLACK; 
-        // --- FIN DEL HACK TEMPORAL ---
 
         // 7. GESTIÓN DE MEMORIA (Solo carga el bitmap si el clima cambió)
         if (newDrawableId != _cachedDrawableId) {

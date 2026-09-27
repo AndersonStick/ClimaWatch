@@ -1,22 +1,22 @@
-[ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+[ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
 import Toybox.Graphics;
-[ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+[ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
 import Toybox.Lang;
-[ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+[ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
 import Toybox.System;
-[ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Time,4,14,18]; ]
+[ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Time,4,14,18]; ]
 import Toybox.Time;
-[ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Time,5,14,18]; @symbol_importdef<2> = [Gregorian,5,19,28]; ]
+[ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Time,5,14,18]; @symbol_importdef<2> = [Gregorian,5,19,28]; ]
 import Toybox.Time.Gregorian;
-[ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [WatchUi,6,14,21]; ]
+[ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [WatchUi,6,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Weather,7,14,21]; ]
+[ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Weather,7,14,21]; ]
 import Toybox.Weather;
-[ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 9; @symbol_classdef = [ClimaWatchView,9,6,20]; @symbol_extends<0> = [WatchUi,9,29,36]; @symbol_extends<1> = [WatchFace,9,37,46]; ]
+[ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 9; @symbol_classdef = [ClimaWatchView,9,6,20]; @symbol_extends<0> = [WatchUi,9,29,36]; @symbol_extends<1> = [WatchFace,9,37,46]; ]
 class ClimaWatchView extends WatchUi.WatchFace {
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 9; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 9; ]
     <init> {
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 16 18 ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 16 18 ]
         %tmp.1 = newa 7 Array<String>;
         symbol [ Array %tmp.1 16 81 86 ];
         symbol [ String %tmp.1 16 87 93 ];
@@ -42,57 +42,57 @@ class ClimaWatchView extends WatchUi.WatchFace {
         %tmp.21 = dup %tmp.19;
         %tmp.22 = aputv %tmp.21 6 %tmp.20;
         putv self :DAYS_FR %tmp.22;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 22 16 ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 22 16 ]
         symbol [ Graphics %tmp.23 22 45 53 ];
         %tmp.23 = getm $.Toybox.Graphics;
         symbol [ COLOR_WHITE %tmp.24 22 54 65 ];
         %tmp.24 = getv %tmp.23 :COLOR_WHITE;
         putv self :_cachedFontColor %tmp.24;
     }
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 9; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 9; ]
     static
     <init> {
     }
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 11; @position = 18; @symbol_constdef = [NIGHT_START_HOUR,11,18,34]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 11; @position = 18; @symbol_constdef = [NIGHT_START_HOUR,11,18,34]; ]
     private
     const NIGHT_START_HOUR = 19;
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 12; @position = 18; @symbol_constdef = [NIGHT_END_HOUR,12,18,32]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 12; @position = 18; @symbol_constdef = [NIGHT_END_HOUR,12,18,32]; ]
     private
     const NIGHT_END_HOUR = 6;
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 13; @position = 18; @symbol_constdef = [FORECAST_OFFSET_SECONDS,13,18,41]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 13; @position = 18; @symbol_constdef = [FORECAST_OFFSET_SECONDS,13,18,41]; ]
     private
     const FORECAST_OFFSET_SECONDS = 1800;
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 16; @position = 18; @symbol_constdef = [DAYS_FR,16,18,25]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 16; @position = 18; @symbol_constdef = [DAYS_FR,16,18,25]; ]
     private
     const DAYS_FR;
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 19; @position = 16; @symbol_vardef = [_cachedBitmap,19,16,29]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 19; @position = 16; @symbol_vardef = [_cachedBitmap,19,16,29]; ]
     private
     var _cachedBitmap = null;
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 20; @position = 16; @symbol_vardef = [_cachedDrawableId,20,16,33]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 20; @position = 16; @symbol_vardef = [_cachedDrawableId,20,16,33]; ]
     private
     var _cachedDrawableId = null;
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 21; @position = 16; @symbol_vardef = [_cachedWeatherText,21,16,34]; @symbol_type<0> = [String,21,38,44]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 21; @position = 16; @symbol_vardef = [_cachedWeatherText,21,16,34]; @symbol_type<0> = [String,21,38,44]; ]
     private
     var _cachedWeatherText as String = "Recherche...";
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 22; @position = 16; @symbol_vardef = [_cachedFontColor,22,16,32]; @symbol_type<0> = [Number,22,36,42]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 22; @position = 16; @symbol_vardef = [_cachedFontColor,22,16,32]; @symbol_type<0> = [Number,22,36,42]; ]
     private
     var _cachedFontColor as Number;
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 24; @symbol_functiondef = [initialize,24,13,23]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 24; @symbol_functiondef = [initialize,24,13,23]; ]
     function initialize() as Void {
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_24_26_26_4_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 25 8 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_24_26_26_4_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 25 8 ]
         symbol [ WatchFace %tmp.2 25 8 17 ];
         %tmp.2 = getv ? :WatchFace;
         symbol [ initialize %tmp.3 25 18 28 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_24_26_26_4_stop:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_24_26_26_4_stop:
     }
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 29; @symbol_functiondef = [onUpdate,29,13,21]; @symbol_param<0> = [dc,29,22,24]; @symbol_param<0>_type<0> = [Dc,29,28,30]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 29; @symbol_functiondef = [onUpdate,29,13,21]; @symbol_param<0> = [dc,29,22,24]; @symbol_param<0>_type<0> = [Dc,29,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_29_40_48_4_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 30 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_29_40_48_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_29_40_48_4_stop" ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_29_40_48_4_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 30 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_29_40_48_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_29_40_48_4_stop" ]
         %clockTime.1 = local;
         symbol [ clockTime %clockTime.1 30 12 21 ];
         symbol [ System %tmp.1 30 24 30 ];
@@ -102,7 +102,7 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_29_4
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %clockTime.1 %tmp.3;
         symbol [ clockTime %clockTime.1 30 12 21 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 33 8 ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 33 8 ]
         %tmp.4 = self;
         symbol [ updateWeatherState %tmp.5 33 8 26 ];
         %tmp.5 = getv function %tmp.4 :updateWeatherState;
@@ -111,7 +111,7 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_29_4
         symbol [ hour %tmp.7 33 37 41 ];
         %tmp.7 = getv %tmp.6 :hour;
         invoke %tmp.4 %tmp.5(%tmp.7);
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 36 8 ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 36 8 ]
         %tmp.8 = lgetv %dc;
         symbol [ dc %tmp.8 36 8 10 ];
         symbol [ setColor %tmp.9 36 11 19 ];
@@ -125,22 +125,22 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_29_4
         symbol [ COLOR_BLACK %tmp.13 36 57 68 ];
         %tmp.13 = getv %tmp.12 :COLOR_BLACK;
         invoke %tmp.8 %tmp.9(%tmp.11, %tmp.13);
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 37 8 ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 37 8 ]
         %tmp.14 = lgetv %dc;
         symbol [ dc %tmp.14 37 8 10 ];
         symbol [ clear %tmp.15 37 11 16 ];
         %tmp.15 = getv function %tmp.14 :clear;
         invoke %tmp.14 %tmp.15();
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 40 8 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8_42_8_if_stmt:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 40 8 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8_42_8_if_stmt:
         symbol [ _cachedBitmap %tmp.17 40 12 25 ];
         %tmp.17 = getv ? :_cachedBitmap;
         %tmp.18 = null;
         %tmp.19 = ne %tmp.17 %tmp.18;
-        bf %tmp.19 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8_42_8_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8_42_8_if_true:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_35_42_8_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 41 12 ]
+        bf %tmp.19 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8_42_8_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8_42_8_if_true:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_35_42_8_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 41 12 ]
         %tmp.20 = lgetv %dc;
         symbol [ dc %tmp.20 41 12 14 ];
         symbol [ drawBitmap %tmp.21 41 15 25 ];
@@ -151,10 +151,10 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_3
         %tmp.25 = getv ? :_cachedBitmap;
         %tmp.26 = as %tmp.25 { (!Null) };
         invoke %tmp.20 %tmp.21(%tmp.22, %tmp.23, %tmp.26);
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_35_42_8_stop:
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8_42_8_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8_42_8_if_end:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 44 8 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_35_42_8_stop:
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8_42_8_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8_42_8_if_end:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 44 8 ]
         %tmp.27 = lgetv %dc;
         symbol [ dc %tmp.27 44 8 10 ];
         symbol [ setColor %tmp.28 44 11 19 ];
@@ -166,7 +166,7 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8
         symbol [ COLOR_TRANSPARENT %tmp.32 44 47 64 ];
         %tmp.32 = getv %tmp.31 :COLOR_TRANSPARENT;
         invoke %tmp.27 %tmp.28(%tmp.30, %tmp.32);
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 45 8 ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 45 8 ]
         %tmp.33 = self;
         symbol [ drawTime %tmp.34 45 8 16 ];
         %tmp.34 = getv function %tmp.33 :drawTime;
@@ -175,28 +175,28 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_40_8
         %tmp.36 = lgetv %clockTime.1;
         symbol [ clockTime %tmp.36 45 21 30 ];
         invoke %tmp.33 %tmp.34(%tmp.35, %tmp.36);
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 46 8 ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 46 8 ]
         %tmp.37 = self;
         symbol [ drawDate %tmp.38 46 8 16 ];
         %tmp.38 = getv function %tmp.37 :drawDate;
         %tmp.39 = lgetv %dc;
         symbol [ dc %tmp.39 46 17 19 ];
         invoke %tmp.37 %tmp.38(%tmp.39);
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 47 8 ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 47 8 ]
         %tmp.40 = self;
         symbol [ drawWeather %tmp.41 47 8 19 ];
         %tmp.41 = getv function %tmp.40 :drawWeather;
         %tmp.42 = lgetv %dc;
         symbol [ dc %tmp.42 47 20 22 ];
         invoke %tmp.40 %tmp.41(%tmp.42);
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_29_40_48_4_stop:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_29_40_48_4_stop:
     }
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 51; @symbol_functiondef = [drawTime,51,21,29]; @symbol_param<0> = [dc,51,30,32]; @symbol_param<0>_type<0> = [Dc,51,36,38]; @symbol_param<1> = [clockTime,51,40,49]; @symbol_param<1>_type<0> = [System,51,53,59]; @symbol_param<1>_type<1> = [ClockTime,51,60,69]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 51; @symbol_functiondef = [drawTime,51,21,29]; @symbol_param<0> = [dc,51,30,32]; @symbol_param<0>_type<0> = [Dc,51,36,38]; @symbol_param<1> = [clockTime,51,40,49]; @symbol_param<1>_type<0> = [System,51,53,59]; @symbol_param<1>_type<1> = [ClockTime,51,60,69]; ]
     private
     function drawTime(dc as Dc, clockTime as System.ClockTime) as Void {
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_51_79_57_4_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 52 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_51_79_57_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_51_79_57_4_stop" ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_51_79_57_4_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 52 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_51_79_57_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_51_79_57_4_stop" ]
         %timeString.1 = local;
         symbol [ timeString %timeString.1 52 12 22 ];
         symbol [ Lang %tmp.1 52 25 29 ];
@@ -224,7 +224,7 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_51_7
         %tmp.16 = invoke %tmp.1 %tmp.2(%tmp.3, %tmp.15);
         lputv %timeString.1 %tmp.16;
         symbol [ timeString %timeString.1 52 12 22 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 56 8 ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 56 8 ]
         %tmp.17 = lgetv %dc;
         symbol [ dc %tmp.17 56 8 10 ];
         symbol [ drawText %tmp.18 56 11 19 ];
@@ -256,14 +256,14 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_51_7
         symbol [ TEXT_JUSTIFY_CENTER %tmp.35 56 111 130 ];
         %tmp.35 = getv %tmp.34 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.17 %tmp.18(%tmp.23, %tmp.30, %tmp.32, %tmp.33, %tmp.35);
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_51_79_57_4_stop:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_51_79_57_4_stop:
     }
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 59; @symbol_functiondef = [drawDate,59,21,29]; @symbol_param<0> = [dc,59,30,32]; @symbol_param<0>_type<0> = [Dc,59,36,38]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 59; @symbol_functiondef = [drawDate,59,21,29]; @symbol_param<0> = [dc,59,30,32]; @symbol_param<0>_type<0> = [Dc,59,36,38]; ]
     private
     function drawDate(dc as Dc) as Void {
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 60 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_stop" ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 60 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_stop" ]
         %dateInfo.1 = local;
         symbol [ dateInfo %dateInfo.1 60 12 20 ];
         symbol [ Gregorian %tmp.1 60 23 32 ];
@@ -282,8 +282,8 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_4
         %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
         lputv %dateInfo.1 %tmp.8;
         symbol [ dateInfo %dateInfo.1 60 12 20 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 61 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_stop" ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 61 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_stop" ]
         %weekdayIndex.2 = local;
         symbol [ weekdayIndex %weekdayIndex.2 61 12 24 ];
         %tmp.9 = lgetv %dateInfo.1;
@@ -294,15 +294,15 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_4
         %tmp.12 = sub %tmp.10 %tmp.11;
         lputv %weekdayIndex.2 %tmp.12;
         symbol [ weekdayIndex %weekdayIndex.2 61 12 24 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 63 8 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_stmt:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_12_63_61_begin:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 63 8 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_stmt:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_12_63_61_begin:
         %tmp.13 = lgetv %weekdayIndex.2;
         symbol [ weekdayIndex %tmp.13 63 12 24 ];
         %tmp.14 = 0;
         %tmp.15 = lt %tmp.13 %tmp.14;
-        bt %tmp.15 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_true;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_32_63_61_false:
+        bt %tmp.15 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_true;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_32_63_61_false:
         %tmp.16 = lgetv %weekdayIndex.2;
         symbol [ weekdayIndex %tmp.16 63 32 44 ];
         symbol [ DAYS_FR %tmp.18 63 48 55 ];
@@ -312,20 +312,20 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_3
         %tmp.20 = invoke %tmp.18 %tmp.19();
         %tmp.21 = gte %tmp.16 %tmp.20;
         push %tmp.21;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_32_63_61_end:
-        %tmp.22 = phi [%tmp.15 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_12_63_61_begin] [%tmp.21 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_32_63_61_false] [%tmp.22 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_32_63_61_end];
-        bf %tmp.22 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_true:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_64_65_8_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 64 12 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_32_63_61_end:
+        %tmp.22 = phi [%tmp.15 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_12_63_61_begin] [%tmp.21 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_32_63_61_false] [%tmp.22 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_32_63_61_end];
+        bf %tmp.22 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_true:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_64_65_8_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 64 12 ]
         %tmp.23 = 0;
         lputv %weekdayIndex.2 %tmp.23;
         symbol [ weekdayIndex %weekdayIndex.2 64 12 24 ];
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_64_65_8_stop:
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_end:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 67 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_stop" ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_64_65_8_stop:
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8_65_8_if_end:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 67 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_stop" ]
         %dateString.3 = local;
         symbol [ dateString %dateString.3 67 12 22 ];
         symbol [ Lang %tmp.24 67 25 29 ];
@@ -350,7 +350,7 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8
         %tmp.38 = invoke %tmp.24 %tmp.25(%tmp.26, %tmp.37);
         lputv %dateString.3 %tmp.38;
         symbol [ dateString %dateString.3 67 12 22 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 68 8 ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 68 8 ]
         %tmp.39 = lgetv %dc;
         symbol [ dc %tmp.39 68 8 10 ];
         symbol [ drawText %tmp.40 68 11 19 ];
@@ -382,13 +382,13 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_63_8
         symbol [ TEXT_JUSTIFY_CENTER %tmp.57 68 107 126 ];
         %tmp.57 = getv %tmp.56 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.39 %tmp.40(%tmp.45, %tmp.52, %tmp.54, %tmp.55, %tmp.57);
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_stop:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_59_48_69_4_stop:
     }
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 71; @symbol_functiondef = [drawWeather,71,21,32]; @symbol_param<0> = [dc,71,33,35]; @symbol_param<0>_type<0> = [Dc,71,39,41]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 71; @symbol_functiondef = [drawWeather,71,21,32]; @symbol_param<0> = [dc,71,33,35]; @symbol_param<0>_type<0> = [Dc,71,39,41]; ]
     private
     function drawWeather(dc as Dc) as Void {
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_71_51_73_4_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 72 8 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_71_51_73_4_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 72 8 ]
         %tmp.1 = lgetv %dc;
         symbol [ dc %tmp.1 72 8 10 ];
         symbol [ drawText %tmp.2 72 11 19 ];
@@ -420,25 +420,25 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_71_5
         symbol [ TEXT_JUSTIFY_CENTER %tmp.20 72 115 134 ];
         %tmp.20 = getv %tmp.19 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.1 %tmp.2(%tmp.7, %tmp.14, %tmp.16, %tmp.18, %tmp.20);
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_71_51_73_4_stop:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_71_51_73_4_stop:
     }
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 76; @symbol_functiondef = [updateWeatherState,76,21,39]; @symbol_param<0> = [currentHour,76,40,51]; @symbol_param<0>_type<0> = [Number,76,55,61]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 76; @symbol_functiondef = [updateWeatherState,76,21,39]; @symbol_param<0> = [currentHour,76,40,51]; @symbol_param<0>_type<0> = [Number,76,55,61]; ]
     private
     function updateWeatherState(currentHour as Number) as Void {
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 77 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_stop" ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 77 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_stop" ]
         %isNight.1 = local;
         symbol [ isNight %isNight.1 77 12 19 ];
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_23_77_72_begin:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_23_77_72_begin:
         %tmp.1 = lgetv %currentHour;
         symbol [ currentHour %tmp.1 77 23 34 ];
         symbol [ NIGHT_START_HOUR %tmp.3 77 38 54 ];
         %tmp.3 = getv ? :NIGHT_START_HOUR;
         %tmp.4 = gte %tmp.1 %tmp.3;
         %tmp.5 = dup %tmp.4;
-        bt %tmp.5 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_58_77_72_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_58_77_72_false:
+        bt %tmp.5 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_58_77_72_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_58_77_72_false:
         %tmp.6 = lgetv %currentHour;
         symbol [ currentHour %tmp.6 77 58 69 ];
         symbol [ NIGHT_END_HOUR %tmp.8 77 72 86 ];
@@ -446,12 +446,12 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_5
         %tmp.9 = lt %tmp.6 %tmp.8;
         %tmp.10 = or %tmp.4 %tmp.9;
         push %tmp.10;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_58_77_72_end:
-        %tmp.11 = phi [%tmp.5 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_23_77_72_begin] [%tmp.10 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_58_77_72_false] [%tmp.11 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_58_77_72_end];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_58_77_72_end:
+        %tmp.11 = phi [%tmp.5 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_23_77_72_begin] [%tmp.10 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_58_77_72_false] [%tmp.11 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_58_77_72_end];
         lputv %isNight.1 %tmp.11;
         symbol [ isNight %isNight.1 77 12 19 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 78 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_stop" ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 78 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_stop" ]
         %forecast.2 = local;
         symbol [ forecast %forecast.2 78 12 20 ];
         %tmp.12 = self;
@@ -460,22 +460,22 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_77_5
         %tmp.14 = invoke %tmp.12 %tmp.13();
         lputv %forecast.2 %tmp.14;
         symbol [ forecast %forecast.2 78 12 20 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 79 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_stop" ]
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 79 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_stop" ]
         %condition.3 = local;
         symbol [ condition %condition.3 79 12 21 ];
         %tmp.15 = null;
         lputv %condition.3 %tmp.15;
         symbol [ condition %condition.3 79 12 21 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 81 8 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_stmt:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_12_81_54_begin:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 81 8 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_stmt:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_12_81_54_begin:
         %tmp.16 = lgetv %forecast.2;
         symbol [ forecast %tmp.16 81 12 20 ];
         %tmp.17 = null;
         %tmp.18 = ne %tmp.16 %tmp.17;
-        bf %tmp.18 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_32_81_54_true:
+        bf %tmp.18 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_32_81_54_true:
         %tmp.19 = lgetv %forecast.2;
         symbol [ forecast %tmp.19 81 32 40 ];
         %tmp.20 = as %tmp.19 { (!Null) };
@@ -484,12 +484,12 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_3
         %tmp.22 = null;
         %tmp.23 = ne %tmp.21 %tmp.22;
         push %tmp.23;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_32_81_54_end:
-        %tmp.24 = phi [%tmp.18 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_12_81_54_begin] [%tmp.23 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_32_81_54_true] [%tmp.24 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_32_81_54_end];
-        bf %tmp.24 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_true:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_60_83_8_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 82 12 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_32_81_54_end:
+        %tmp.24 = phi [%tmp.18 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_12_81_54_begin] [%tmp.23 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_32_81_54_true] [%tmp.24 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_32_81_54_end];
+        bf %tmp.24 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_true:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_60_83_8_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 82 12 ]
         %tmp.25 = lgetv %forecast.2;
         symbol [ forecast %tmp.25 82 24 32 ];
         %tmp.26 = as %tmp.25 { (!Null) };
@@ -497,12 +497,12 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_6
         %tmp.27 = getv %tmp.26 :condition;
         lputv %condition.3 %tmp.27;
         symbol [ condition %condition.3 82 12 21 ];
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_60_83_8_stop:
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_else_false:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_83_15_88_8_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 84 12 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_83_15_88_8_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_83_15_88_8_stop" ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_60_83_8_stop:
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_else_false:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_83_15_88_8_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 84 12 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_83_15_88_8_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_83_15_88_8_stop" ]
         %current.4 = local;
         symbol [ current %current.4 84 16 23 ];
         symbol [ Weather %tmp.28 84 26 33 ];
@@ -512,15 +512,15 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_83_1
         %tmp.30 = invoke %tmp.28 %tmp.29();
         lputv %current.4 %tmp.30;
         symbol [ current %current.4 84 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 85 12 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_stmt:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_16_85_56_begin:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 85 12 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_stmt:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_16_85_56_begin:
         %tmp.31 = lgetv %current.4;
         symbol [ current %tmp.31 85 16 23 ];
         %tmp.32 = null;
         %tmp.33 = ne %tmp.31 %tmp.32;
-        bf %tmp.33 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_35_85_56_true:
+        bf %tmp.33 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_35_85_56_true:
         %tmp.34 = lgetv %current.4;
         symbol [ current %tmp.34 85 35 42 ];
         %tmp.35 = as %tmp.34 { (!Null) };
@@ -529,12 +529,12 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_3
         %tmp.37 = null;
         %tmp.38 = ne %tmp.36 %tmp.37;
         push %tmp.38;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_35_85_56_end:
-        %tmp.39 = phi [%tmp.33 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_16_85_56_begin] [%tmp.38 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_35_85_56_true] [%tmp.39 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_35_85_56_end];
-        bf %tmp.39 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_true:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_62_87_12_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 86 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_35_85_56_end:
+        %tmp.39 = phi [%tmp.33 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_16_85_56_begin] [%tmp.38 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_35_85_56_true] [%tmp.39 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_35_85_56_end];
+        bf %tmp.39 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_true:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_62_87_12_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 86 16 ]
         %tmp.40 = lgetv %current.4;
         symbol [ current %tmp.40 86 28 35 ];
         %tmp.41 = as %tmp.40 { (!Null) };
@@ -542,21 +542,21 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_6
         %tmp.42 = getv %tmp.41 :condition;
         lputv %condition.3 %tmp.42;
         symbol [ condition %condition.3 86 16 25 ];
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_62_87_12_stop:
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_end:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_83_15_88_8_stop:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_end:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 90 8 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_8_92_8_if_stmt:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_62_87_12_stop:
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_85_12_87_12_if_end:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_83_15_88_8_stop:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_81_8_88_8_if_end:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 90 8 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_8_92_8_if_stmt:
         %tmp.43 = lgetv %condition.3;
         symbol [ condition %tmp.43 90 12 21 ];
         %tmp.44 = null;
         %tmp.45 = ne %tmp.43 %tmp.44;
-        bf %tmp.45 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_8_92_8_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_8_92_8_if_true:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_31_92_8_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 91 12 ]
+        bf %tmp.45 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_8_92_8_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_8_92_8_if_true:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_31_92_8_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 91 12 ]
         %tmp.46 = self;
         symbol [ applyWeatherCondition %tmp.47 91 12 33 ];
         %tmp.47 = getv function %tmp.46 :applyWeatherCondition;
@@ -566,1052 +566,1032 @@ D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_3
         %tmp.50 = lgetv %isNight.1;
         symbol [ isNight %tmp.50 91 45 52 ];
         invoke %tmp.46 %tmp.47(%tmp.49, %tmp.50);
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_31_92_8_stop:
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_8_92_8_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_8_92_8_if_end:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_stop:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_31_92_8_stop:
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_8_92_8_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_90_8_92_8_if_end:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_76_71_93_4_stop:
     }
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 95; @symbol_functiondef = [getForecastForOffset,95,21,41]; @symbol_return<0> = [Weather,95,47,54]; @symbol_return<1> = [HourlyForecast,95,55,69]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 96; @symbol_functiondef = [getForecastForOffset,96,21,41]; @symbol_return<0> = [Weather,96,47,54]; @symbol_return<1> = [HourlyForecast,96,55,69]; ]
     private
     function getForecastForOffset() as Weather.HourlyForecast or Null {
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_95_71_119_4_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 96 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_95_71_119_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_95_71_119_4_stop" ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_96_71_120_4_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 97 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_96_71_120_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_96_71_120_4_stop" ]
         %hourlyForecast.1 = local;
-        symbol [ hourlyForecast %hourlyForecast.1 96 12 26 ];
-        symbol [ Weather %tmp.1 96 29 36 ];
+        symbol [ hourlyForecast %hourlyForecast.1 97 12 26 ];
+        symbol [ Weather %tmp.1 97 29 36 ];
         %tmp.1 = getm $.Toybox.Weather;
-        symbol [ getHourlyForecast %tmp.2 96 37 54 ];
+        symbol [ getHourlyForecast %tmp.2 97 37 54 ];
         %tmp.2 = getv function %tmp.1 :getHourlyForecast;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %hourlyForecast.1 %tmp.3;
-        symbol [ hourlyForecast %hourlyForecast.1 96 12 26 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 97 8 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_8_99_8_if_stmt:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_12_97_63_begin:
+        symbol [ hourlyForecast %hourlyForecast.1 97 12 26 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 98 8 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_8_100_8_if_stmt:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_12_98_63_begin:
         %tmp.4 = lgetv %hourlyForecast.1;
-        symbol [ hourlyForecast %tmp.4 97 12 26 ];
+        symbol [ hourlyForecast %tmp.4 98 12 26 ];
         %tmp.5 = null;
         %tmp.6 = eq %tmp.4 %tmp.5;
-        bt %tmp.6 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_8_99_8_if_true;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_38_97_63_false:
+        bt %tmp.6 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_8_100_8_if_true;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_38_98_63_false:
         %tmp.7 = lgetv %hourlyForecast.1;
-        symbol [ hourlyForecast %tmp.7 97 38 52 ];
+        symbol [ hourlyForecast %tmp.7 98 38 52 ];
         %tmp.8 = as %tmp.7 { (!Null) };
-        symbol [ size %tmp.9 97 53 57 ];
+        symbol [ size %tmp.9 98 53 57 ];
         %tmp.9 = getv function %tmp.8 :size;
         %tmp.10 = invoke %tmp.8 %tmp.9();
         %tmp.11 = 0;
         %tmp.12 = eq %tmp.10 %tmp.11;
         push %tmp.12;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_38_97_63_end:
-        %tmp.13 = phi [%tmp.6 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_12_97_63_begin] [%tmp.12 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_38_97_63_false] [%tmp.13 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_38_97_63_end];
-        bf %tmp.13 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_8_99_8_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_8_99_8_if_true:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_66_99_8_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 98 12 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_38_98_63_end:
+        %tmp.13 = phi [%tmp.6 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_12_98_63_begin] [%tmp.12 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_38_98_63_false] [%tmp.13 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_38_98_63_end];
+        bf %tmp.13 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_8_100_8_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_8_100_8_if_true:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_66_100_8_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 99 12 ]
         %tmp.14 = null;
         ret %tmp.14;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_66_99_8_stop:
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_8_99_8_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_97_8_99_8_if_end:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 101 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_95_71_119_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_95_71_119_4_stop" ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_66_100_8_stop:
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_8_100_8_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_98_8_100_8_if_end:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 102 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_96_71_120_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_96_71_120_4_stop" ]
         %targetTime.2 = local;
-        symbol [ targetTime %targetTime.2 101 12 22 ];
-        symbol [ Time %tmp.15 101 25 29 ];
+        symbol [ targetTime %targetTime.2 102 12 22 ];
+        symbol [ Time %tmp.15 102 25 29 ];
         %tmp.15 = getm $.Toybox.Time;
-        symbol [ now %tmp.16 101 30 33 ];
+        symbol [ now %tmp.16 102 30 33 ];
         %tmp.16 = getv function %tmp.15 :now;
         %tmp.17 = invoke %tmp.15 %tmp.16();
-        symbol [ value %tmp.18 101 36 41 ];
+        symbol [ value %tmp.18 102 36 41 ];
         %tmp.18 = getv function %tmp.17 :value;
         %tmp.19 = invoke %tmp.17 %tmp.18();
-        symbol [ FORECAST_OFFSET_SECONDS %tmp.21 101 46 69 ];
+        symbol [ FORECAST_OFFSET_SECONDS %tmp.21 102 46 69 ];
         %tmp.21 = getv ? :FORECAST_OFFSET_SECONDS;
         %tmp.22 = add %tmp.19 %tmp.21;
         lputv %targetTime.2 %tmp.22;
-        symbol [ targetTime %targetTime.2 101 12 22 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 102 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_95_71_119_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_95_71_119_4_stop" ]
+        symbol [ targetTime %targetTime.2 102 12 22 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 103 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_96_71_120_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_96_71_120_4_stop" ]
         %closestForecast.3 = local;
-        symbol [ closestForecast %closestForecast.3 102 12 27 ];
+        symbol [ closestForecast %closestForecast.3 103 12 27 ];
         %tmp.23 = null;
         lputv %closestForecast.3 %tmp.23;
-        symbol [ closestForecast %closestForecast.3 102 12 27 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 103 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_95_71_119_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_95_71_119_4_stop" ]
+        symbol [ closestForecast %closestForecast.3 103 12 27 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 104 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_96_71_120_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_96_71_120_4_stop" ]
         %closestDistance.4 = local;
-        symbol [ closestDistance %closestDistance.4 103 12 27 ];
+        symbol [ closestDistance %closestDistance.4 104 12 27 ];
         %tmp.24 = null;
         lputv %closestDistance.4 %tmp.24;
-        symbol [ closestDistance %closestDistance.4 103 12 27 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 105 8 ]
-        for @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_test @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_incr @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_init:
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_begin" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_end" ]
+        symbol [ closestDistance %closestDistance.4 104 12 27 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 106 8 ]
+        for @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_test @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_incr @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_init:
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_begin" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_end" ]
         %i.5 = local;
-        symbol [ i %i.5 105 17 18 ];
+        symbol [ i %i.5 106 17 18 ];
         %tmp.25 = 0;
         lputv %i.5 %tmp.25;
-        symbol [ i %i.5 105 17 18 ];
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_test:
+        symbol [ i %i.5 106 17 18 ];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_test:
         %tmp.26 = lgetv %i.5;
-        symbol [ i %tmp.26 105 24 25 ];
+        symbol [ i %tmp.26 106 24 25 ];
         %tmp.27 = lgetv %hourlyForecast.1;
-        symbol [ hourlyForecast %tmp.27 105 28 42 ];
-        symbol [ size %tmp.28 105 43 47 ];
+        symbol [ hourlyForecast %tmp.27 106 28 42 ];
+        symbol [ size %tmp.28 106 43 47 ];
         %tmp.28 = getv function %tmp.27 :size;
         %tmp.29 = invoke %tmp.27 %tmp.28();
         %tmp.30 = lt %tmp.26 %tmp.29;
-        bf %tmp.30 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_begin:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_56_117_8_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 106 12 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_56_117_8_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_56_117_8_stop" ]
+        bf %tmp.30 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_begin:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_56_118_8_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 107 12 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_56_118_8_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_56_118_8_stop" ]
         %forecast.6 = local;
-        symbol [ forecast %forecast.6 106 16 24 ];
+        symbol [ forecast %forecast.6 107 16 24 ];
         %tmp.31 = lgetv %hourlyForecast.1;
-        symbol [ hourlyForecast %tmp.31 106 27 41 ];
+        symbol [ hourlyForecast %tmp.31 107 27 41 ];
         %tmp.32 = lgetv %i.5;
-        symbol [ i %tmp.32 106 42 43 ];
+        symbol [ i %tmp.32 107 42 43 ];
         %tmp.33 = agetv %tmp.31 %tmp.32;
         lputv %forecast.6 %tmp.33;
-        symbol [ forecast %forecast.6 106 16 24 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 107 12 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_12_109_12_if_stmt:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_16_107_91_begin:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_16_107_58_begin:
+        symbol [ forecast %forecast.6 107 16 24 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 108 12 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_12_110_12_if_stmt:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_16_108_91_begin:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_16_108_58_begin:
         %tmp.34 = lgetv %forecast.6;
-        symbol [ forecast %tmp.34 107 16 24 ];
+        symbol [ forecast %tmp.34 108 16 24 ];
         %tmp.35 = null;
         %tmp.36 = eq %tmp.34 %tmp.35;
-        bt %tmp.36 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_12_109_12_if_true;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_36_107_58_false:
+        bt %tmp.36 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_12_110_12_if_true;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_36_108_58_false:
         %tmp.37 = lgetv %forecast.6;
-        symbol [ forecast %tmp.37 107 36 44 ];
+        symbol [ forecast %tmp.37 108 36 44 ];
         %tmp.38 = as %tmp.37 { (!Null) };
-        symbol [ condition %tmp.39 107 45 54 ];
+        symbol [ condition %tmp.39 108 45 54 ];
         %tmp.39 = getv %tmp.38 :condition;
         %tmp.40 = null;
         %tmp.41 = eq %tmp.39 %tmp.40;
         push %tmp.41;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_36_107_58_end:
-        %tmp.42 = phi [%tmp.36 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_16_107_58_begin] [%tmp.41 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_36_107_58_false] [%tmp.42 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_36_107_58_end];
-        bt %tmp.42 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_12_109_12_if_true;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_66_107_91_false:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_36_108_58_end:
+        %tmp.42 = phi [%tmp.36 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_16_108_58_begin] [%tmp.41 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_36_108_58_false] [%tmp.42 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_36_108_58_end];
+        bt %tmp.42 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_12_110_12_if_true;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_66_108_91_false:
         %tmp.43 = lgetv %forecast.6;
-        symbol [ forecast %tmp.43 107 66 74 ];
+        symbol [ forecast %tmp.43 108 66 74 ];
         %tmp.44 = as %tmp.43 { (!Null) };
-        symbol [ forecastTime %tmp.45 107 75 87 ];
+        symbol [ forecastTime %tmp.45 108 75 87 ];
         %tmp.45 = getv %tmp.44 :forecastTime;
         %tmp.46 = null;
         %tmp.47 = eq %tmp.45 %tmp.46;
         push %tmp.47;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_66_107_91_end:
-        %tmp.48 = phi [%tmp.42 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_16_107_91_begin] [%tmp.47 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_66_107_91_false] [%tmp.48 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_66_107_91_end];
-        bf %tmp.48 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_12_109_12_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_12_109_12_if_true:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_97_109_12_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 108 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_incr;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_97_109_12_stop:
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_12_109_12_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_107_12_109_12_if_end:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 111 12 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_56_117_8_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_56_117_8_stop" ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_66_108_91_end:
+        %tmp.48 = phi [%tmp.42 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_16_108_91_begin] [%tmp.47 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_66_108_91_false] [%tmp.48 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_66_108_91_end];
+        bf %tmp.48 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_12_110_12_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_12_110_12_if_true:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_97_110_12_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 109 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_incr;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_97_110_12_stop:
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_12_110_12_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_108_12_110_12_if_end:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 112 12 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_56_118_8_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_56_118_8_stop" ]
         %distance.7 = local;
-        symbol [ distance %distance.7 111 16 24 ];
+        symbol [ distance %distance.7 112 16 24 ];
         %tmp.49 = lgetv %forecast.6;
-        symbol [ forecast %tmp.49 111 28 36 ];
-        symbol [ forecastTime %tmp.50 111 37 49 ];
+        symbol [ forecast %tmp.49 112 28 36 ];
+        symbol [ forecastTime %tmp.50 112 37 49 ];
         %tmp.50 = getv %tmp.49 :forecastTime;
-        symbol [ value %tmp.51 111 50 55 ];
+        symbol [ value %tmp.51 112 50 55 ];
         %tmp.51 = getv function %tmp.50 :value;
         %tmp.52 = invoke %tmp.50 %tmp.51();
         %tmp.53 = lgetv %targetTime.2;
-        symbol [ targetTime %tmp.53 111 60 70 ];
+        symbol [ targetTime %tmp.53 112 60 70 ];
         %tmp.54 = sub %tmp.52 %tmp.53;
-        symbol [ abs %tmp.55 111 72 75 ];
+        symbol [ abs %tmp.55 112 72 75 ];
         %tmp.55 = getv function %tmp.54 :abs;
         %tmp.56 = invoke %tmp.54 %tmp.55();
         lputv %distance.7 %tmp.56;
-        symbol [ distance %distance.7 111 16 24 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 113 12 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_12_116_12_if_stmt:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_16_113_54_begin:
+        symbol [ distance %distance.7 112 16 24 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 114 12 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_12_117_12_if_stmt:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_16_114_54_begin:
         %tmp.57 = lgetv %closestDistance.4;
-        symbol [ closestDistance %tmp.57 113 16 31 ];
+        symbol [ closestDistance %tmp.57 114 16 31 ];
         %tmp.58 = null;
         %tmp.59 = eq %tmp.57 %tmp.58;
-        bt %tmp.59 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_12_116_12_if_true;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_43_113_54_false:
+        bt %tmp.59 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_12_117_12_if_true;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_43_114_54_false:
         %tmp.60 = lgetv %distance.7;
-        symbol [ distance %tmp.60 113 43 51 ];
+        symbol [ distance %tmp.60 114 43 51 ];
         %tmp.61 = lgetv %closestDistance.4;
-        symbol [ closestDistance %tmp.61 113 54 69 ];
+        symbol [ closestDistance %tmp.61 114 54 69 ];
         %tmp.62 = as %tmp.61 { (!Null) };
         %tmp.63 = lt %tmp.60 %tmp.62;
         push %tmp.63;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_43_113_54_end:
-        %tmp.64 = phi [%tmp.59 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_16_113_54_begin] [%tmp.63 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_43_113_54_false] [%tmp.64 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_43_113_54_end];
-        bf %tmp.64 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_12_116_12_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_12_116_12_if_true:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_71_116_12_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 114 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_43_114_54_end:
+        %tmp.64 = phi [%tmp.59 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_16_114_54_begin] [%tmp.63 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_43_114_54_false] [%tmp.64 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_43_114_54_end];
+        bf %tmp.64 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_12_117_12_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_12_117_12_if_true:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_71_117_12_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 115 16 ]
         %tmp.65 = lgetv %forecast.6;
-        symbol [ forecast %tmp.65 114 34 42 ];
+        symbol [ forecast %tmp.65 115 34 42 ];
         lputv %closestForecast.3 %tmp.65;
-        symbol [ closestForecast %closestForecast.3 114 16 31 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 115 16 ]
+        symbol [ closestForecast %closestForecast.3 115 16 31 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 116 16 ]
         %tmp.66 = lgetv %distance.7;
-        symbol [ distance %tmp.66 115 34 42 ];
+        symbol [ distance %tmp.66 116 34 42 ];
         lputv %closestDistance.4 %tmp.66;
-        symbol [ closestDistance %closestDistance.4 115 16 31 ];
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_71_116_12_stop:
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_12_116_12_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_113_12_116_12_if_end:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_56_117_8_stop:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_incr:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 105 ]
+        symbol [ closestDistance %closestDistance.4 116 16 31 ];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_71_117_12_stop:
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_12_117_12_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_114_12_117_12_if_end:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_56_118_8_stop:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_incr:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 106 ]
         %tmp.69 = lgetv %i.5;
-        symbol [ i %tmp.69 105 51 52 ];
+        symbol [ i %tmp.69 106 51 52 ];
         %tmp.70 = add %tmp.69 1;
         lputv %i.5 %tmp.70;
-        symbol [ i %i.5 105 51 52 ];
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_test;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_105_8_117_8_for_end:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 118 8 ]
+        symbol [ i %i.5 106 51 52 ];
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_test;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_106_8_118_8_for_end:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 119 8 ]
         %tmp.71 = lgetv %closestForecast.3;
-        symbol [ closestForecast %tmp.71 118 15 30 ];
+        symbol [ closestForecast %tmp.71 119 15 30 ];
         ret %tmp.71;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_95_71_119_4_stop:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_96_71_120_4_stop:
     }
-    [ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 122; @symbol_functiondef = [applyWeatherCondition,122,21,42]; @symbol_param<0> = [condition,122,43,52]; @symbol_param<0>_type<0> = [Number,122,56,62]; @symbol_param<1> = [isNight,122,64,71]; @symbol_param<1>_type<0> = [Boolean,122,75,82]; ]
+    [ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 123; @symbol_functiondef = [applyWeatherCondition,123,21,42]; @symbol_param<0> = [condition,123,43,52]; @symbol_param<0>_type<0> = [Number,123,56,62]; @symbol_param<1> = [isNight,123,64,71]; @symbol_param<1>_type<0> = [Boolean,123,75,82]; ]
     private
     function applyWeatherCondition(condition as Number, isNight as Boolean) as Void {
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_122_92_227_4_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 123 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_122_92_227_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_122_92_227_4_stop" ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_123_92_223_4_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 124 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_123_92_223_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_123_92_223_4_stop" ]
         %newDrawableId.1 = local;
-        symbol [ newDrawableId %newDrawableId.1 123 12 25 ];
+        symbol [ newDrawableId %newDrawableId.1 124 12 25 ];
         %tmp.1 = null;
         lputv %newDrawableId.1 %tmp.1;
-        symbol [ newDrawableId %newDrawableId.1 123 12 25 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 124 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_122_92_227_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_122_92_227_4_stop" ]
+        symbol [ newDrawableId %newDrawableId.1 124 12 25 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 125 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_123_92_223_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_123_92_223_4_stop" ]
         %newText.2 = local;
-        symbol [ newText %newText.2 124 12 19 ];
+        symbol [ newText %newText.2 125 12 19 ];
         %tmp.2 = "";
         lputv %newText.2 %tmp.2;
-        symbol [ newText %newText.2 124 12 19 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 125 8 ]
-        [ "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_122_92_227_4_start" "D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_122_92_227_4_stop" ]
+        symbol [ newText %newText.2 125 12 19 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 126 8 ]
+        [ "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_123_92_223_4_start" "d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_123_92_223_4_stop" ]
         %newColor.3 = local;
-        symbol [ newColor %newColor.3 125 12 20 ];
-        symbol [ Graphics %tmp.3 125 23 31 ];
+        symbol [ newColor %newColor.3 126 12 20 ];
+        symbol [ Graphics %tmp.3 126 23 31 ];
         %tmp.3 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.4 125 32 43 ];
+        symbol [ COLOR_WHITE %tmp.4 126 32 43 ];
         %tmp.4 = getv %tmp.3 :COLOR_WHITE;
         lputv %newColor.3 %tmp.4;
-        symbol [ newColor %newColor.3 125 12 20 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 127 8 ]
+        symbol [ newColor %newColor.3 126 12 20 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 128 8 ]
         %tmp.5 = lgetv %condition;
-        symbol [ condition %tmp.5 127 15 24 ];
+        symbol [ condition %tmp.5 128 15 24 ];
         push %tmp.5;
-        switch %tmp.5 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtBegin:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 128 12 ]
+        switch %tmp.5 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtBegin:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 129 12 ]
         %tmp.6 = dup %tmp.5;
-        symbol [ Weather %tmp.7 128 17 24 ];
+        symbol [ Weather %tmp.7 129 17 24 ];
         %tmp.7 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CLEAR %tmp.8 128 25 40 ];
+        symbol [ CONDITION_CLEAR %tmp.8 129 25 40 ];
         %tmp.8 = getv %tmp.7 :CONDITION_CLEAR;
         %tmp.9 = getv function %tmp.6 :equals;
         %tmp.10 = invoke %tmp.6 %tmp.9 (%tmp.8);
-        bt %tmp.10 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_12_128_40_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 129 12 ]
+        bt %tmp.10 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_129_12_129_40_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 130 12 ]
         %tmp.11 = dup %tmp.5;
-        symbol [ Weather %tmp.12 129 17 24 ];
+        symbol [ Weather %tmp.12 130 17 24 ];
         %tmp.12 = getm $.Toybox.Weather;
-        symbol [ CONDITION_MOSTLY_CLEAR %tmp.13 129 25 47 ];
+        symbol [ CONDITION_MOSTLY_CLEAR %tmp.13 130 25 47 ];
         %tmp.13 = getv %tmp.12 :CONDITION_MOSTLY_CLEAR;
         %tmp.14 = getv function %tmp.11 :equals;
         %tmp.15 = invoke %tmp.11 %tmp.14 (%tmp.13);
-        bt %tmp.15 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_129_12_129_47_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 130 12 ]
+        bt %tmp.15 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_130_12_130_47_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 131 12 ]
         %tmp.16 = dup %tmp.5;
-        symbol [ Weather %tmp.17 130 17 24 ];
+        symbol [ Weather %tmp.17 131 17 24 ];
         %tmp.17 = getm $.Toybox.Weather;
-        symbol [ CONDITION_PARTLY_CLEAR %tmp.18 130 25 47 ];
+        symbol [ CONDITION_PARTLY_CLEAR %tmp.18 131 25 47 ];
         %tmp.18 = getv %tmp.17 :CONDITION_PARTLY_CLEAR;
         %tmp.19 = getv function %tmp.16 :equals;
         %tmp.20 = invoke %tmp.16 %tmp.19 (%tmp.18);
-        bt %tmp.20 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_130_12_130_47_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 131 12 ]
+        bt %tmp.20 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_131_12_131_47_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 132 12 ]
         %tmp.21 = dup %tmp.5;
-        symbol [ Weather %tmp.22 131 17 24 ];
+        symbol [ Weather %tmp.22 132 17 24 ];
         %tmp.22 = getm $.Toybox.Weather;
-        symbol [ CONDITION_FAIR %tmp.23 131 25 39 ];
+        symbol [ CONDITION_FAIR %tmp.23 132 25 39 ];
         %tmp.23 = getv %tmp.22 :CONDITION_FAIR;
         %tmp.24 = getv function %tmp.21 :equals;
         %tmp.25 = invoke %tmp.21 %tmp.24 (%tmp.23);
-        bt %tmp.25 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_131_12_135_21_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 137 12 ]
+        bt %tmp.25 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_132_12_137_21_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 139 12 ]
         %tmp.26 = dup %tmp.5;
-        symbol [ Weather %tmp.27 137 17 24 ];
+        symbol [ Weather %tmp.27 139 17 24 ];
         %tmp.27 = getm $.Toybox.Weather;
-        symbol [ CONDITION_RAIN %tmp.28 137 25 39 ];
+        symbol [ CONDITION_RAIN %tmp.28 139 25 39 ];
         %tmp.28 = getv %tmp.27 :CONDITION_RAIN;
         %tmp.29 = getv function %tmp.26 :equals;
         %tmp.30 = invoke %tmp.26 %tmp.29 (%tmp.28);
-        bt %tmp.30 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_137_12_137_39_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 138 12 ]
+        bt %tmp.30 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_139_12_139_39_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 140 12 ]
         %tmp.31 = dup %tmp.5;
-        symbol [ Weather %tmp.32 138 17 24 ];
+        symbol [ Weather %tmp.32 140 17 24 ];
         %tmp.32 = getm $.Toybox.Weather;
-        symbol [ CONDITION_LIGHT_RAIN %tmp.33 138 25 45 ];
+        symbol [ CONDITION_LIGHT_RAIN %tmp.33 140 25 45 ];
         %tmp.33 = getv %tmp.32 :CONDITION_LIGHT_RAIN;
         %tmp.34 = getv function %tmp.31 :equals;
         %tmp.35 = invoke %tmp.31 %tmp.34 (%tmp.33);
-        bt %tmp.35 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_138_12_138_45_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 139 12 ]
+        bt %tmp.35 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_140_12_140_45_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 141 12 ]
         %tmp.36 = dup %tmp.5;
-        symbol [ Weather %tmp.37 139 17 24 ];
+        symbol [ Weather %tmp.37 141 17 24 ];
         %tmp.37 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HEAVY_RAIN %tmp.38 139 25 45 ];
+        symbol [ CONDITION_HEAVY_RAIN %tmp.38 141 25 45 ];
         %tmp.38 = getv %tmp.37 :CONDITION_HEAVY_RAIN;
         %tmp.39 = getv function %tmp.36 :equals;
         %tmp.40 = invoke %tmp.36 %tmp.39 (%tmp.38);
-        bt %tmp.40 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_139_12_139_45_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 140 12 ]
+        bt %tmp.40 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_141_12_141_45_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 142 12 ]
         %tmp.41 = dup %tmp.5;
-        symbol [ Weather %tmp.42 140 17 24 ];
+        symbol [ Weather %tmp.42 142 17 24 ];
         %tmp.42 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CLOUDY_CHANCE_OF_RAIN %tmp.43 140 25 56 ];
+        symbol [ CONDITION_CLOUDY_CHANCE_OF_RAIN %tmp.43 142 25 56 ];
         %tmp.43 = getv %tmp.42 :CONDITION_CLOUDY_CHANCE_OF_RAIN;
         %tmp.44 = getv function %tmp.41 :equals;
         %tmp.45 = invoke %tmp.41 %tmp.44 (%tmp.43);
-        bt %tmp.45 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_140_12_140_56_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 141 12 ]
+        bt %tmp.45 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_142_12_142_56_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 143 12 ]
         %tmp.46 = dup %tmp.5;
-        symbol [ Weather %tmp.47 141 17 24 ];
+        symbol [ Weather %tmp.47 143 17 24 ];
         %tmp.47 = getm $.Toybox.Weather;
-        symbol [ CONDITION_UNKNOWN_PRECIPITATION %tmp.48 141 25 56 ];
+        symbol [ CONDITION_UNKNOWN_PRECIPITATION %tmp.48 143 25 56 ];
         %tmp.48 = getv %tmp.47 :CONDITION_UNKNOWN_PRECIPITATION;
         %tmp.49 = getv function %tmp.46 :equals;
         %tmp.50 = invoke %tmp.46 %tmp.49 (%tmp.48);
-        bt %tmp.50 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_141_12_141_56_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 142 12 ]
+        bt %tmp.50 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_143_12_143_56_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 144 12 ]
         %tmp.51 = dup %tmp.5;
-        symbol [ Weather %tmp.52 142 17 24 ];
+        symbol [ Weather %tmp.52 144 17 24 ];
         %tmp.52 = getm $.Toybox.Weather;
-        symbol [ CONDITION_WINTRY_MIX %tmp.53 142 25 45 ];
+        symbol [ CONDITION_WINTRY_MIX %tmp.53 144 25 45 ];
         %tmp.53 = getv %tmp.52 :CONDITION_WINTRY_MIX;
         %tmp.54 = getv function %tmp.51 :equals;
         %tmp.55 = invoke %tmp.51 %tmp.54 (%tmp.53);
-        bt %tmp.55 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_142_12_142_45_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 143 12 ]
+        bt %tmp.55 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_144_12_144_45_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 145 12 ]
         %tmp.56 = dup %tmp.5;
-        symbol [ Weather %tmp.57 143 17 24 ];
+        symbol [ Weather %tmp.57 145 17 24 ];
         %tmp.57 = getm $.Toybox.Weather;
-        symbol [ CONDITION_RAIN_SNOW %tmp.58 143 25 44 ];
+        symbol [ CONDITION_RAIN_SNOW %tmp.58 145 25 44 ];
         %tmp.58 = getv %tmp.57 :CONDITION_RAIN_SNOW;
         %tmp.59 = getv function %tmp.56 :equals;
         %tmp.60 = invoke %tmp.56 %tmp.59 (%tmp.58);
-        bt %tmp.60 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_143_12_143_44_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 144 12 ]
+        bt %tmp.60 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_145_12_145_44_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 146 12 ]
         %tmp.61 = dup %tmp.5;
-        symbol [ Weather %tmp.62 144 17 24 ];
+        symbol [ Weather %tmp.62 146 17 24 ];
         %tmp.62 = getm $.Toybox.Weather;
-        symbol [ CONDITION_FREEZING_RAIN %tmp.63 144 25 48 ];
+        symbol [ CONDITION_FREEZING_RAIN %tmp.63 146 25 48 ];
         %tmp.63 = getv %tmp.62 :CONDITION_FREEZING_RAIN;
         %tmp.64 = getv function %tmp.61 :equals;
         %tmp.65 = invoke %tmp.61 %tmp.64 (%tmp.63);
-        bt %tmp.65 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_144_12_144_48_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 145 12 ]
+        bt %tmp.65 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_146_12_146_48_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 147 12 ]
         %tmp.66 = dup %tmp.5;
-        symbol [ Weather %tmp.67 145 17 24 ];
+        symbol [ Weather %tmp.67 147 17 24 ];
         %tmp.67 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SLEET %tmp.68 145 25 40 ];
+        symbol [ CONDITION_SLEET %tmp.68 147 25 40 ];
         %tmp.68 = getv %tmp.67 :CONDITION_SLEET;
         %tmp.69 = getv function %tmp.66 :equals;
         %tmp.70 = invoke %tmp.66 %tmp.69 (%tmp.68);
-        bt %tmp.70 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_145_12_148_21_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 150 12 ]
+        bt %tmp.70 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_12_150_21_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 152 12 ]
         %tmp.71 = dup %tmp.5;
-        symbol [ Weather %tmp.72 150 17 24 ];
+        symbol [ Weather %tmp.72 152 17 24 ];
         %tmp.72 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SHOWERS %tmp.73 150 25 42 ];
+        symbol [ CONDITION_SHOWERS %tmp.73 152 25 42 ];
         %tmp.73 = getv %tmp.72 :CONDITION_SHOWERS;
         %tmp.74 = getv function %tmp.71 :equals;
         %tmp.75 = invoke %tmp.71 %tmp.74 (%tmp.73);
-        bt %tmp.75 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_150_12_150_42_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 151 12 ]
+        bt %tmp.75 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_152_12_152_42_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 153 12 ]
         %tmp.76 = dup %tmp.5;
-        symbol [ Weather %tmp.77 151 17 24 ];
+        symbol [ Weather %tmp.77 153 17 24 ];
         %tmp.77 = getm $.Toybox.Weather;
-        symbol [ CONDITION_LIGHT_SHOWERS %tmp.78 151 25 48 ];
+        symbol [ CONDITION_LIGHT_SHOWERS %tmp.78 153 25 48 ];
         %tmp.78 = getv %tmp.77 :CONDITION_LIGHT_SHOWERS;
         %tmp.79 = getv function %tmp.76 :equals;
         %tmp.80 = invoke %tmp.76 %tmp.79 (%tmp.78);
-        bt %tmp.80 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_151_12_151_48_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 152 12 ]
+        bt %tmp.80 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_153_12_153_48_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 154 12 ]
         %tmp.81 = dup %tmp.5;
-        symbol [ Weather %tmp.82 152 17 24 ];
+        symbol [ Weather %tmp.82 154 17 24 ];
         %tmp.82 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HEAVY_SHOWERS %tmp.83 152 25 48 ];
+        symbol [ CONDITION_HEAVY_SHOWERS %tmp.83 154 25 48 ];
         %tmp.83 = getv %tmp.82 :CONDITION_HEAVY_SHOWERS;
         %tmp.84 = getv function %tmp.81 :equals;
         %tmp.85 = invoke %tmp.81 %tmp.84 (%tmp.83);
-        bt %tmp.85 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_152_12_152_48_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 153 12 ]
+        bt %tmp.85 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_154_12_154_48_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 155 12 ]
         %tmp.86 = dup %tmp.5;
-        symbol [ Weather %tmp.87 153 17 24 ];
+        symbol [ Weather %tmp.87 155 17 24 ];
         %tmp.87 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SCATTERED_SHOWERS %tmp.88 153 25 52 ];
+        symbol [ CONDITION_SCATTERED_SHOWERS %tmp.88 155 25 52 ];
         %tmp.88 = getv %tmp.87 :CONDITION_SCATTERED_SHOWERS;
         %tmp.89 = getv function %tmp.86 :equals;
         %tmp.90 = invoke %tmp.86 %tmp.89 (%tmp.88);
-        bt %tmp.90 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_153_12_153_52_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 154 12 ]
+        bt %tmp.90 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_155_12_155_52_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 156 12 ]
         %tmp.91 = dup %tmp.5;
-        symbol [ Weather %tmp.92 154 17 24 ];
+        symbol [ Weather %tmp.92 156 17 24 ];
         %tmp.92 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CHANCE_OF_SHOWERS %tmp.93 154 25 52 ];
+        symbol [ CONDITION_CHANCE_OF_SHOWERS %tmp.93 156 25 52 ];
         %tmp.93 = getv %tmp.92 :CONDITION_CHANCE_OF_SHOWERS;
         %tmp.94 = getv function %tmp.91 :equals;
         %tmp.95 = invoke %tmp.91 %tmp.94 (%tmp.93);
-        bt %tmp.95 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_154_12_157_21_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 159 12 ]
+        bt %tmp.95 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_12_159_21_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 161 12 ]
         %tmp.96 = dup %tmp.5;
-        symbol [ Weather %tmp.97 159 17 24 ];
+        symbol [ Weather %tmp.97 161 17 24 ];
         %tmp.97 = getm $.Toybox.Weather;
-        symbol [ CONDITION_DRIZZLE %tmp.98 159 25 42 ];
+        symbol [ CONDITION_DRIZZLE %tmp.98 161 25 42 ];
         %tmp.98 = getv %tmp.97 :CONDITION_DRIZZLE;
         %tmp.99 = getv function %tmp.96 :equals;
         %tmp.100 = invoke %tmp.96 %tmp.99 (%tmp.98);
-        bt %tmp.100 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_159_12_162_21_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 164 12 ]
+        bt %tmp.100 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_12_164_21_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 166 12 ]
         %tmp.101 = dup %tmp.5;
-        symbol [ Weather %tmp.102 164 17 24 ];
+        symbol [ Weather %tmp.102 166 17 24 ];
         %tmp.102 = getm $.Toybox.Weather;
-        symbol [ CONDITION_THUNDERSTORMS %tmp.103 164 25 48 ];
+        symbol [ CONDITION_THUNDERSTORMS %tmp.103 166 25 48 ];
         %tmp.103 = getv %tmp.102 :CONDITION_THUNDERSTORMS;
         %tmp.104 = getv function %tmp.101 :equals;
         %tmp.105 = invoke %tmp.101 %tmp.104 (%tmp.103);
-        bt %tmp.105 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_164_12_164_48_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 165 12 ]
+        bt %tmp.105 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_166_12_166_48_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 167 12 ]
         %tmp.106 = dup %tmp.5;
-        symbol [ Weather %tmp.107 165 17 24 ];
+        symbol [ Weather %tmp.107 167 17 24 ];
         %tmp.107 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SCATTERED_THUNDERSTORMS %tmp.108 165 25 58 ];
+        symbol [ CONDITION_SCATTERED_THUNDERSTORMS %tmp.108 167 25 58 ];
         %tmp.108 = getv %tmp.107 :CONDITION_SCATTERED_THUNDERSTORMS;
         %tmp.109 = getv function %tmp.106 :equals;
         %tmp.110 = invoke %tmp.106 %tmp.109 (%tmp.108);
-        bt %tmp.110 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_165_12_165_58_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 166 12 ]
+        bt %tmp.110 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_167_12_167_58_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 168 12 ]
         %tmp.111 = dup %tmp.5;
-        symbol [ Weather %tmp.112 166 17 24 ];
+        symbol [ Weather %tmp.112 168 17 24 ];
         %tmp.112 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CHANCE_OF_THUNDERSTORMS %tmp.113 166 25 58 ];
+        symbol [ CONDITION_CHANCE_OF_THUNDERSTORMS %tmp.113 168 25 58 ];
         %tmp.113 = getv %tmp.112 :CONDITION_CHANCE_OF_THUNDERSTORMS;
         %tmp.114 = getv function %tmp.111 :equals;
         %tmp.115 = invoke %tmp.111 %tmp.114 (%tmp.113);
-        bt %tmp.115 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_166_12_169_21_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 171 12 ]
+        bt %tmp.115 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_168_12_171_21_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 173 12 ]
         %tmp.116 = dup %tmp.5;
-        symbol [ Weather %tmp.117 171 17 24 ];
+        symbol [ Weather %tmp.117 173 17 24 ];
         %tmp.117 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SNOW %tmp.118 171 25 39 ];
+        symbol [ CONDITION_SNOW %tmp.118 173 25 39 ];
         %tmp.118 = getv %tmp.117 :CONDITION_SNOW;
         %tmp.119 = getv function %tmp.116 :equals;
         %tmp.120 = invoke %tmp.116 %tmp.119 (%tmp.118);
-        bt %tmp.120 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_171_12_171_39_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 172 12 ]
+        bt %tmp.120 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_173_12_173_39_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 174 12 ]
         %tmp.121 = dup %tmp.5;
-        symbol [ Weather %tmp.122 172 17 24 ];
+        symbol [ Weather %tmp.122 174 17 24 ];
         %tmp.122 = getm $.Toybox.Weather;
-        symbol [ CONDITION_LIGHT_SNOW %tmp.123 172 25 45 ];
+        symbol [ CONDITION_LIGHT_SNOW %tmp.123 174 25 45 ];
         %tmp.123 = getv %tmp.122 :CONDITION_LIGHT_SNOW;
         %tmp.124 = getv function %tmp.121 :equals;
         %tmp.125 = invoke %tmp.121 %tmp.124 (%tmp.123);
-        bt %tmp.125 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_172_12_172_45_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 173 12 ]
+        bt %tmp.125 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_174_12_174_45_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 175 12 ]
         %tmp.126 = dup %tmp.5;
-        symbol [ Weather %tmp.127 173 17 24 ];
+        symbol [ Weather %tmp.127 175 17 24 ];
         %tmp.127 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HEAVY_SNOW %tmp.128 173 25 45 ];
+        symbol [ CONDITION_HEAVY_SNOW %tmp.128 175 25 45 ];
         %tmp.128 = getv %tmp.127 :CONDITION_HEAVY_SNOW;
         %tmp.129 = getv function %tmp.126 :equals;
         %tmp.130 = invoke %tmp.126 %tmp.129 (%tmp.128);
-        bt %tmp.130 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_173_12_173_45_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 174 12 ]
+        bt %tmp.130 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_175_12_175_45_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 176 12 ]
         %tmp.131 = dup %tmp.5;
-        symbol [ Weather %tmp.132 174 17 24 ];
+        symbol [ Weather %tmp.132 176 17 24 ];
         %tmp.132 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CHANCE_OF_SNOW %tmp.133 174 25 49 ];
+        symbol [ CONDITION_CHANCE_OF_SNOW %tmp.133 176 25 49 ];
         %tmp.133 = getv %tmp.132 :CONDITION_CHANCE_OF_SNOW;
         %tmp.134 = getv function %tmp.131 :equals;
         %tmp.135 = invoke %tmp.131 %tmp.134 (%tmp.133);
-        bt %tmp.135 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_174_12_174_49_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 175 12 ]
+        bt %tmp.135 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_176_12_176_49_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 177 12 ]
         %tmp.136 = dup %tmp.5;
-        symbol [ Weather %tmp.137 175 17 24 ];
+        symbol [ Weather %tmp.137 177 17 24 ];
         %tmp.137 = getm $.Toybox.Weather;
-        symbol [ CONDITION_FLURRIES %tmp.138 175 25 43 ];
+        symbol [ CONDITION_FLURRIES %tmp.138 177 25 43 ];
         %tmp.138 = getv %tmp.137 :CONDITION_FLURRIES;
         %tmp.139 = getv function %tmp.136 :equals;
         %tmp.140 = invoke %tmp.136 %tmp.139 (%tmp.138);
-        bt %tmp.140 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_175_12_175_43_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 176 12 ]
+        bt %tmp.140 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_177_12_177_43_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 178 12 ]
         %tmp.141 = dup %tmp.5;
-        symbol [ Weather %tmp.142 176 17 24 ];
+        symbol [ Weather %tmp.142 178 17 24 ];
         %tmp.142 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HAIL %tmp.143 176 25 39 ];
+        symbol [ CONDITION_HAIL %tmp.143 178 25 39 ];
         %tmp.143 = getv %tmp.142 :CONDITION_HAIL;
         %tmp.144 = getv function %tmp.141 :equals;
         %tmp.145 = invoke %tmp.141 %tmp.144 (%tmp.143);
-        bt %tmp.145 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_176_12_179_21_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 181 12 ]
+        bt %tmp.145 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_12_181_21_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 183 12 ]
         %tmp.146 = dup %tmp.5;
-        symbol [ Weather %tmp.147 181 17 24 ];
+        symbol [ Weather %tmp.147 183 17 24 ];
         %tmp.147 = getm $.Toybox.Weather;
-        symbol [ CONDITION_PARTLY_CLOUDY %tmp.148 181 25 48 ];
+        symbol [ CONDITION_PARTLY_CLOUDY %tmp.148 183 25 48 ];
         %tmp.148 = getv %tmp.147 :CONDITION_PARTLY_CLOUDY;
         %tmp.149 = getv function %tmp.146 :equals;
         %tmp.150 = invoke %tmp.146 %tmp.149 (%tmp.148);
-        bt %tmp.150 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_181_12_184_21_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 186 12 ]
+        bt %tmp.150 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_12_186_21_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 188 12 ]
         %tmp.151 = dup %tmp.5;
-        symbol [ Weather %tmp.152 186 17 24 ];
+        symbol [ Weather %tmp.152 188 17 24 ];
         %tmp.152 = getm $.Toybox.Weather;
-        symbol [ CONDITION_MOSTLY_CLOUDY %tmp.153 186 25 48 ];
+        symbol [ CONDITION_MOSTLY_CLOUDY %tmp.153 188 25 48 ];
         %tmp.153 = getv %tmp.152 :CONDITION_MOSTLY_CLOUDY;
         %tmp.154 = getv function %tmp.151 :equals;
         %tmp.155 = invoke %tmp.151 %tmp.154 (%tmp.153);
-        bt %tmp.155 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_186_12_186_48_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 187 12 ]
+        bt %tmp.155 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_188_12_188_48_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 189 12 ]
         %tmp.156 = dup %tmp.5;
-        symbol [ Weather %tmp.157 187 17 24 ];
+        symbol [ Weather %tmp.157 189 17 24 ];
         %tmp.157 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CLOUDY %tmp.158 187 25 41 ];
+        symbol [ CONDITION_CLOUDY %tmp.158 189 25 41 ];
         %tmp.158 = getv %tmp.157 :CONDITION_CLOUDY;
         %tmp.159 = getv function %tmp.156 :equals;
         %tmp.160 = invoke %tmp.156 %tmp.159 (%tmp.158);
-        bt %tmp.160 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_187_12_190_21_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 192 12 ]
+        bt %tmp.160 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_12_192_21_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 194 12 ]
         %tmp.161 = dup %tmp.5;
-        symbol [ Weather %tmp.162 192 17 24 ];
+        symbol [ Weather %tmp.162 194 17 24 ];
         %tmp.162 = getm $.Toybox.Weather;
-        symbol [ CONDITION_FOG %tmp.163 192 25 38 ];
+        symbol [ CONDITION_FOG %tmp.163 194 25 38 ];
         %tmp.163 = getv %tmp.162 :CONDITION_FOG;
         %tmp.164 = getv function %tmp.161 :equals;
         %tmp.165 = invoke %tmp.161 %tmp.164 (%tmp.163);
-        bt %tmp.165 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_192_12_192_38_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 193 12 ]
+        bt %tmp.165 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_194_12_194_38_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 195 12 ]
         %tmp.166 = dup %tmp.5;
-        symbol [ Weather %tmp.167 193 17 24 ];
+        symbol [ Weather %tmp.167 195 17 24 ];
         %tmp.167 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HAZY %tmp.168 193 25 39 ];
+        symbol [ CONDITION_HAZY %tmp.168 195 25 39 ];
         %tmp.168 = getv %tmp.167 :CONDITION_HAZY;
         %tmp.169 = getv function %tmp.166 :equals;
         %tmp.170 = invoke %tmp.166 %tmp.169 (%tmp.168);
-        bt %tmp.170 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_193_12_193_39_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 194 12 ]
+        bt %tmp.170 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_195_12_195_39_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 196 12 ]
         %tmp.171 = dup %tmp.5;
-        symbol [ Weather %tmp.172 194 17 24 ];
+        symbol [ Weather %tmp.172 196 17 24 ];
         %tmp.172 = getm $.Toybox.Weather;
-        symbol [ CONDITION_MIST %tmp.173 194 25 39 ];
+        symbol [ CONDITION_MIST %tmp.173 196 25 39 ];
         %tmp.173 = getv %tmp.172 :CONDITION_MIST;
         %tmp.174 = getv function %tmp.171 :equals;
         %tmp.175 = invoke %tmp.171 %tmp.174 (%tmp.173);
-        bt %tmp.175 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_194_12_194_39_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 195 12 ]
+        bt %tmp.175 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_196_12_196_39_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 197 12 ]
         %tmp.176 = dup %tmp.5;
-        symbol [ Weather %tmp.177 195 17 24 ];
+        symbol [ Weather %tmp.177 197 17 24 ];
         %tmp.177 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SMOKE %tmp.178 195 25 40 ];
+        symbol [ CONDITION_SMOKE %tmp.178 197 25 40 ];
         %tmp.178 = getv %tmp.177 :CONDITION_SMOKE;
         %tmp.179 = getv function %tmp.176 :equals;
         %tmp.180 = invoke %tmp.176 %tmp.179 (%tmp.178);
-        bt %tmp.180 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_195_12_198_21_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 200 12 ]
+        bt %tmp.180 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_12_200_21_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 202 12 ]
         %tmp.181 = dup %tmp.5;
-        symbol [ Weather %tmp.182 200 17 24 ];
+        symbol [ Weather %tmp.182 202 17 24 ];
         %tmp.182 = getm $.Toybox.Weather;
-        symbol [ CONDITION_WINDY %tmp.183 200 25 40 ];
+        symbol [ CONDITION_WINDY %tmp.183 202 25 40 ];
         %tmp.183 = getv %tmp.182 :CONDITION_WINDY;
         %tmp.184 = getv function %tmp.181 :equals;
         %tmp.185 = invoke %tmp.181 %tmp.184 (%tmp.183);
-        bt %tmp.185 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_200_12_200_40_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 201 12 ]
+        bt %tmp.185 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_202_12_202_40_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 203 12 ]
         %tmp.186 = dup %tmp.5;
-        symbol [ Weather %tmp.187 201 17 24 ];
+        symbol [ Weather %tmp.187 203 17 24 ];
         %tmp.187 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SQUALL %tmp.188 201 25 41 ];
+        symbol [ CONDITION_SQUALL %tmp.188 203 25 41 ];
         %tmp.188 = getv %tmp.187 :CONDITION_SQUALL;
         %tmp.189 = getv function %tmp.186 :equals;
         %tmp.190 = invoke %tmp.186 %tmp.189 (%tmp.188);
-        bt %tmp.190 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_201_12_201_41_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 202 12 ]
+        bt %tmp.190 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_203_12_203_41_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 204 12 ]
         %tmp.191 = dup %tmp.5;
-        symbol [ Weather %tmp.192 202 17 24 ];
+        symbol [ Weather %tmp.192 204 17 24 ];
         %tmp.192 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SANDSTORM %tmp.193 202 25 44 ];
+        symbol [ CONDITION_SANDSTORM %tmp.193 204 25 44 ];
         %tmp.193 = getv %tmp.192 :CONDITION_SANDSTORM;
         %tmp.194 = getv function %tmp.191 :equals;
         %tmp.195 = invoke %tmp.191 %tmp.194 (%tmp.193);
-        bt %tmp.195 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_202_12_205_21_switchCase;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 207 12 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtDefault:
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_defaultCodeBegin;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_12_128_40_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_129_12_129_47_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_130_12_130_47_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_131_12_135_21_switchCase:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 132 16 ]
+        bt %tmp.195 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_204_12_207_21_switchCase;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 209 12 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtDefault:
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_defaultCodeBegin;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_129_12_129_40_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_130_12_130_47_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_131_12_131_47_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_132_12_137_21_switchCase:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 133 16 ]
         %tmp.196 = "Dégagé";
         lputv %newText.2 %tmp.196;
-        symbol [ newText %newText.2 132 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 133 16 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_133_32_133_83_begin:
+        symbol [ newText %newText.2 133 16 23 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 134 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_32_134_83_begin:
         %tmp.197 = lgetv %isNight;
-        symbol [ isNight %tmp.197 133 32 39 ];
-        bf %tmp.197 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_133_32_133_83_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_133_32_133_83_true:
-        symbol [ Rez %tmp.199 133 42 45 ];
+        symbol [ isNight %tmp.197 134 32 39 ];
+        bf %tmp.197 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_32_134_83_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_32_134_83_true:
+        symbol [ Rez %tmp.199 134 42 45 ];
         %tmp.199 = getv ? :Rez;
-        symbol [ Drawables %tmp.200 133 46 55 ];
+        symbol [ Drawables %tmp.200 134 46 55 ];
         %tmp.200 = getv %tmp.199 :Drawables;
-        symbol [ BgSolNoche %tmp.201 133 56 66 ];
+        symbol [ BgSolNoche %tmp.201 134 56 66 ];
         %tmp.201 = getv %tmp.200 :BgSolNoche;
         push %tmp.201;
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_133_32_133_83_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_133_32_133_83_else_false:
-        symbol [ Rez %tmp.203 133 69 72 ];
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_32_134_83_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_32_134_83_else_false:
+        symbol [ Rez %tmp.203 134 69 72 ];
         %tmp.203 = getv ? :Rez;
-        symbol [ Drawables %tmp.204 133 73 82 ];
+        symbol [ Drawables %tmp.204 134 73 82 ];
         %tmp.204 = getv %tmp.203 :Drawables;
-        symbol [ BgSol %tmp.205 133 83 88 ];
+        symbol [ BgSol %tmp.205 134 83 88 ];
         %tmp.205 = getv %tmp.204 :BgSol;
         push %tmp.205;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_133_32_133_83_end:
-        %tmp.206 = phi [%tmp.197 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_133_32_133_83_begin] [%tmp.201 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_133_32_133_83_true] [%tmp.205 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_133_32_133_83_else_false] [%tmp.206 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_133_32_133_83_end];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_32_134_83_end:
+        %tmp.206 = phi [%tmp.197 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_32_134_83_begin] [%tmp.201 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_32_134_83_true] [%tmp.205 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_32_134_83_else_false] [%tmp.206 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_32_134_83_end];
         lputv %newDrawableId.1 %tmp.206;
-        symbol [ newDrawableId %newDrawableId.1 133 16 29 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 134 16 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_27_134_69_begin:
+        symbol [ newDrawableId %newDrawableId.1 134 16 29 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 136 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_136_27_136_69_begin:
         %tmp.207 = lgetv %isNight;
-        symbol [ isNight %tmp.207 134 27 34 ];
-        bf %tmp.207 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_27_134_69_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_27_134_69_true:
-        symbol [ Graphics %tmp.208 134 37 45 ];
+        symbol [ isNight %tmp.207 136 27 34 ];
+        bf %tmp.207 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_136_27_136_69_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_136_27_136_69_true:
+        symbol [ Graphics %tmp.208 136 37 45 ];
         %tmp.208 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.209 134 46 57 ];
+        symbol [ COLOR_WHITE %tmp.209 136 46 57 ];
         %tmp.209 = getv %tmp.208 :COLOR_WHITE;
         push %tmp.209;
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_27_134_69_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_27_134_69_else_false:
-        symbol [ Graphics %tmp.210 134 60 68 ];
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_136_27_136_69_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_136_27_136_69_else_false:
+        symbol [ Graphics %tmp.210 136 60 68 ];
         %tmp.210 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.211 134 69 80 ];
+        symbol [ COLOR_BLACK %tmp.211 136 69 80 ];
         %tmp.211 = getv %tmp.210 :COLOR_BLACK;
         push %tmp.211;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_27_134_69_end:
-        %tmp.212 = phi [%tmp.207 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_27_134_69_begin] [%tmp.209 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_27_134_69_true] [%tmp.211 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_27_134_69_else_false] [%tmp.212 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_134_27_134_69_end];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_136_27_136_69_end:
+        %tmp.212 = phi [%tmp.207 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_136_27_136_69_begin] [%tmp.209 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_136_27_136_69_true] [%tmp.211 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_136_27_136_69_else_false] [%tmp.212 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_136_27_136_69_end];
         lputv %newColor.3 %tmp.212;
-        symbol [ newColor %newColor.3 134 16 24 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 135 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_137_12_137_39_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_138_12_138_45_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_139_12_139_45_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_140_12_140_56_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_141_12_141_56_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_142_12_142_45_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_143_12_143_44_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_144_12_144_48_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_145_12_148_21_switchCase:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 146 16 ]
+        symbol [ newColor %newColor.3 136 16 24 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 137 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_139_12_139_39_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_140_12_140_45_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_141_12_141_45_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_142_12_142_56_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_143_12_143_56_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_144_12_144_45_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_145_12_145_44_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_146_12_146_48_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_12_150_21_switchCase:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 148 16 ]
         %tmp.213 = "Pluie";
         lputv %newText.2 %tmp.213;
-        symbol [ newText %newText.2 146 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 147 16 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_32_147_86_begin:
+        symbol [ newText %newText.2 148 16 23 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 149 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_149_32_149_86_begin:
         %tmp.214 = lgetv %isNight;
-        symbol [ isNight %tmp.214 147 32 39 ];
-        bf %tmp.214 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_32_147_86_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_32_147_86_true:
-        symbol [ Rez %tmp.216 147 42 45 ];
+        symbol [ isNight %tmp.214 149 32 39 ];
+        bf %tmp.214 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_149_32_149_86_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_149_32_149_86_true:
+        symbol [ Rez %tmp.216 149 42 45 ];
         %tmp.216 = getv ? :Rez;
-        symbol [ Drawables %tmp.217 147 46 55 ];
+        symbol [ Drawables %tmp.217 149 46 55 ];
         %tmp.217 = getv %tmp.216 :Drawables;
-        symbol [ BgLluviaNoche %tmp.218 147 56 69 ];
+        symbol [ BgLluviaNoche %tmp.218 149 56 69 ];
         %tmp.218 = getv %tmp.217 :BgLluviaNoche;
         push %tmp.218;
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_32_147_86_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_32_147_86_else_false:
-        symbol [ Rez %tmp.220 147 72 75 ];
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_149_32_149_86_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_149_32_149_86_else_false:
+        symbol [ Rez %tmp.220 149 72 75 ];
         %tmp.220 = getv ? :Rez;
-        symbol [ Drawables %tmp.221 147 76 85 ];
+        symbol [ Drawables %tmp.221 149 76 85 ];
         %tmp.221 = getv %tmp.220 :Drawables;
-        symbol [ BgLluvia %tmp.222 147 86 94 ];
+        symbol [ BgLluvia %tmp.222 149 86 94 ];
         %tmp.222 = getv %tmp.221 :BgLluvia;
         push %tmp.222;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_32_147_86_end:
-        %tmp.223 = phi [%tmp.214 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_32_147_86_begin] [%tmp.218 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_32_147_86_true] [%tmp.222 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_32_147_86_else_false] [%tmp.223 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_147_32_147_86_end];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_149_32_149_86_end:
+        %tmp.223 = phi [%tmp.214 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_149_32_149_86_begin] [%tmp.218 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_149_32_149_86_true] [%tmp.222 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_149_32_149_86_else_false] [%tmp.223 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_149_32_149_86_end];
         lputv %newDrawableId.1 %tmp.223;
-        symbol [ newDrawableId %newDrawableId.1 147 16 29 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 148 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_150_12_150_42_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_151_12_151_48_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_152_12_152_48_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_153_12_153_52_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_154_12_157_21_switchCase:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 155 16 ]
+        symbol [ newDrawableId %newDrawableId.1 149 16 29 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 150 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_152_12_152_42_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_153_12_153_48_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_154_12_154_48_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_155_12_155_52_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_12_159_21_switchCase:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 157 16 ]
         %tmp.224 = "Averses";
         lputv %newText.2 %tmp.224;
-        symbol [ newText %newText.2 155 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 156 16 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_32_156_86_begin:
+        symbol [ newText %newText.2 157 16 23 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 158 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_158_32_158_86_begin:
         %tmp.225 = lgetv %isNight;
-        symbol [ isNight %tmp.225 156 32 39 ];
-        bf %tmp.225 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_32_156_86_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_32_156_86_true:
-        symbol [ Rez %tmp.227 156 42 45 ];
+        symbol [ isNight %tmp.225 158 32 39 ];
+        bf %tmp.225 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_158_32_158_86_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_158_32_158_86_true:
+        symbol [ Rez %tmp.227 158 42 45 ];
         %tmp.227 = getv ? :Rez;
-        symbol [ Drawables %tmp.228 156 46 55 ];
+        symbol [ Drawables %tmp.228 158 46 55 ];
         %tmp.228 = getv %tmp.227 :Drawables;
-        symbol [ BgLluviaNoche %tmp.229 156 56 69 ];
+        symbol [ BgLluviaNoche %tmp.229 158 56 69 ];
         %tmp.229 = getv %tmp.228 :BgLluviaNoche;
         push %tmp.229;
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_32_156_86_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_32_156_86_else_false:
-        symbol [ Rez %tmp.231 156 72 75 ];
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_158_32_158_86_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_158_32_158_86_else_false:
+        symbol [ Rez %tmp.231 158 72 75 ];
         %tmp.231 = getv ? :Rez;
-        symbol [ Drawables %tmp.232 156 76 85 ];
+        symbol [ Drawables %tmp.232 158 76 85 ];
         %tmp.232 = getv %tmp.231 :Drawables;
-        symbol [ BgLluvia %tmp.233 156 86 94 ];
+        symbol [ BgLluvia %tmp.233 158 86 94 ];
         %tmp.233 = getv %tmp.232 :BgLluvia;
         push %tmp.233;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_32_156_86_end:
-        %tmp.234 = phi [%tmp.225 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_32_156_86_begin] [%tmp.229 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_32_156_86_true] [%tmp.233 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_32_156_86_else_false] [%tmp.234 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_156_32_156_86_end];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_158_32_158_86_end:
+        %tmp.234 = phi [%tmp.225 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_158_32_158_86_begin] [%tmp.229 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_158_32_158_86_true] [%tmp.233 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_158_32_158_86_else_false] [%tmp.234 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_158_32_158_86_end];
         lputv %newDrawableId.1 %tmp.234;
-        symbol [ newDrawableId %newDrawableId.1 156 16 29 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 157 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_159_12_162_21_switchCase:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 160 16 ]
+        symbol [ newDrawableId %newDrawableId.1 158 16 29 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 159 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_12_164_21_switchCase:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 162 16 ]
         %tmp.235 = "Bruine";
         lputv %newText.2 %tmp.235;
-        symbol [ newText %newText.2 160 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 161 16 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_32_161_86_begin:
+        symbol [ newText %newText.2 162 16 23 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 163 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_163_32_163_86_begin:
         %tmp.236 = lgetv %isNight;
-        symbol [ isNight %tmp.236 161 32 39 ];
-        bf %tmp.236 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_32_161_86_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_32_161_86_true:
-        symbol [ Rez %tmp.238 161 42 45 ];
+        symbol [ isNight %tmp.236 163 32 39 ];
+        bf %tmp.236 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_163_32_163_86_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_163_32_163_86_true:
+        symbol [ Rez %tmp.238 163 42 45 ];
         %tmp.238 = getv ? :Rez;
-        symbol [ Drawables %tmp.239 161 46 55 ];
+        symbol [ Drawables %tmp.239 163 46 55 ];
         %tmp.239 = getv %tmp.238 :Drawables;
-        symbol [ BgLluviaNoche %tmp.240 161 56 69 ];
+        symbol [ BgLluviaNoche %tmp.240 163 56 69 ];
         %tmp.240 = getv %tmp.239 :BgLluviaNoche;
         push %tmp.240;
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_32_161_86_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_32_161_86_else_false:
-        symbol [ Rez %tmp.242 161 72 75 ];
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_163_32_163_86_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_163_32_163_86_else_false:
+        symbol [ Rez %tmp.242 163 72 75 ];
         %tmp.242 = getv ? :Rez;
-        symbol [ Drawables %tmp.243 161 76 85 ];
+        symbol [ Drawables %tmp.243 163 76 85 ];
         %tmp.243 = getv %tmp.242 :Drawables;
-        symbol [ BgLluvia %tmp.244 161 86 94 ];
+        symbol [ BgLluvia %tmp.244 163 86 94 ];
         %tmp.244 = getv %tmp.243 :BgLluvia;
         push %tmp.244;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_32_161_86_end:
-        %tmp.245 = phi [%tmp.236 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_32_161_86_begin] [%tmp.240 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_32_161_86_true] [%tmp.244 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_32_161_86_else_false] [%tmp.245 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_161_32_161_86_end];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_163_32_163_86_end:
+        %tmp.245 = phi [%tmp.236 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_163_32_163_86_begin] [%tmp.240 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_163_32_163_86_true] [%tmp.244 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_163_32_163_86_else_false] [%tmp.245 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_163_32_163_86_end];
         lputv %newDrawableId.1 %tmp.245;
-        symbol [ newDrawableId %newDrawableId.1 161 16 29 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 162 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_164_12_164_48_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_165_12_165_58_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_166_12_169_21_switchCase:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 167 16 ]
+        symbol [ newDrawableId %newDrawableId.1 163 16 29 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 164 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_166_12_166_48_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_167_12_167_58_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_168_12_171_21_switchCase:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 169 16 ]
         %tmp.246 = "Orage";
         lputv %newText.2 %tmp.246;
-        symbol [ newText %newText.2 167 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 168 16 ]
-        symbol [ Rez %tmp.248 168 32 35 ];
+        symbol [ newText %newText.2 169 16 23 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 170 16 ]
+        symbol [ Rez %tmp.248 170 32 35 ];
         %tmp.248 = getv ? :Rez;
-        symbol [ Drawables %tmp.249 168 36 45 ];
+        symbol [ Drawables %tmp.249 170 36 45 ];
         %tmp.249 = getv %tmp.248 :Drawables;
-        symbol [ BgTormenta %tmp.250 168 46 56 ];
+        symbol [ BgTormenta %tmp.250 170 46 56 ];
         %tmp.250 = getv %tmp.249 :BgTormenta;
         lputv %newDrawableId.1 %tmp.250;
-        symbol [ newDrawableId %newDrawableId.1 168 16 29 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 169 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_171_12_171_39_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_172_12_172_45_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_173_12_173_45_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_174_12_174_49_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_175_12_175_43_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_176_12_179_21_switchCase:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 177 16 ]
+        symbol [ newDrawableId %newDrawableId.1 170 16 29 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 171 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_173_12_173_39_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_174_12_174_45_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_175_12_175_45_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_176_12_176_49_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_177_12_177_43_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_12_181_21_switchCase:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 179 16 ]
         %tmp.251 = "Neige";
         lputv %newText.2 %tmp.251;
-        symbol [ newText %newText.2 177 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 178 16 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_32_178_85_begin:
+        symbol [ newText %newText.2 179 16 23 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 180 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_180_32_180_85_begin:
         %tmp.252 = lgetv %isNight;
-        symbol [ isNight %tmp.252 178 32 39 ];
-        bf %tmp.252 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_32_178_85_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_32_178_85_true:
-        symbol [ Rez %tmp.254 178 42 45 ];
+        symbol [ isNight %tmp.252 180 32 39 ];
+        bf %tmp.252 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_180_32_180_85_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_180_32_180_85_true:
+        symbol [ Rez %tmp.254 180 42 45 ];
         %tmp.254 = getv ? :Rez;
-        symbol [ Drawables %tmp.255 178 46 55 ];
+        symbol [ Drawables %tmp.255 180 46 55 ];
         %tmp.255 = getv %tmp.254 :Drawables;
-        symbol [ BgNieveNoche %tmp.256 178 56 68 ];
+        symbol [ BgNieveNoche %tmp.256 180 56 68 ];
         %tmp.256 = getv %tmp.255 :BgNieveNoche;
         push %tmp.256;
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_32_178_85_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_32_178_85_else_false:
-        symbol [ Rez %tmp.258 178 71 74 ];
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_180_32_180_85_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_180_32_180_85_else_false:
+        symbol [ Rez %tmp.258 180 71 74 ];
         %tmp.258 = getv ? :Rez;
-        symbol [ Drawables %tmp.259 178 75 84 ];
+        symbol [ Drawables %tmp.259 180 75 84 ];
         %tmp.259 = getv %tmp.258 :Drawables;
-        symbol [ BgNieveDia %tmp.260 178 85 95 ];
+        symbol [ BgNieveDia %tmp.260 180 85 95 ];
         %tmp.260 = getv %tmp.259 :BgNieveDia;
         push %tmp.260;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_32_178_85_end:
-        %tmp.261 = phi [%tmp.252 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_32_178_85_begin] [%tmp.256 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_32_178_85_true] [%tmp.260 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_32_178_85_else_false] [%tmp.261 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_178_32_178_85_end];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_180_32_180_85_end:
+        %tmp.261 = phi [%tmp.252 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_180_32_180_85_begin] [%tmp.256 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_180_32_180_85_true] [%tmp.260 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_180_32_180_85_else_false] [%tmp.261 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_180_32_180_85_end];
         lputv %newDrawableId.1 %tmp.261;
-        symbol [ newDrawableId %newDrawableId.1 178 16 29 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 179 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_181_12_184_21_switchCase:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 182 16 ]
+        symbol [ newDrawableId %newDrawableId.1 180 16 29 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 181 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_12_186_21_switchCase:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 184 16 ]
         %tmp.262 = "Peu nuageux";
         lputv %newText.2 %tmp.262;
-        symbol [ newText %newText.2 182 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 183 16 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_32_183_85_begin:
+        symbol [ newText %newText.2 184 16 23 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 185 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_185_32_185_85_begin:
         %tmp.263 = lgetv %isNight;
-        symbol [ isNight %tmp.263 183 32 39 ];
-        bf %tmp.263 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_32_183_85_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_32_183_85_true:
-        symbol [ Rez %tmp.265 183 42 45 ];
+        symbol [ isNight %tmp.263 185 32 39 ];
+        bf %tmp.263 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_185_32_185_85_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_185_32_185_85_true:
+        symbol [ Rez %tmp.265 185 42 45 ];
         %tmp.265 = getv ? :Rez;
-        symbol [ Drawables %tmp.266 183 46 55 ];
+        symbol [ Drawables %tmp.266 185 46 55 ];
         %tmp.266 = getv %tmp.265 :Drawables;
-        symbol [ BgNubesNoche %tmp.267 183 56 68 ];
+        symbol [ BgNubesNoche %tmp.267 185 56 68 ];
         %tmp.267 = getv %tmp.266 :BgNubesNoche;
         push %tmp.267;
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_32_183_85_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_32_183_85_else_false:
-        symbol [ Rez %tmp.269 183 71 74 ];
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_185_32_185_85_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_185_32_185_85_else_false:
+        symbol [ Rez %tmp.269 185 71 74 ];
         %tmp.269 = getv ? :Rez;
-        symbol [ Drawables %tmp.270 183 75 84 ];
+        symbol [ Drawables %tmp.270 185 75 84 ];
         %tmp.270 = getv %tmp.269 :Drawables;
-        symbol [ BgNubes %tmp.271 183 85 92 ];
+        symbol [ BgNubes %tmp.271 185 85 92 ];
         %tmp.271 = getv %tmp.270 :BgNubes;
         push %tmp.271;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_32_183_85_end:
-        %tmp.272 = phi [%tmp.263 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_32_183_85_begin] [%tmp.267 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_32_183_85_true] [%tmp.271 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_32_183_85_else_false] [%tmp.272 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_183_32_183_85_end];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_185_32_185_85_end:
+        %tmp.272 = phi [%tmp.263 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_185_32_185_85_begin] [%tmp.267 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_185_32_185_85_true] [%tmp.271 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_185_32_185_85_else_false] [%tmp.272 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_185_32_185_85_end];
         lputv %newDrawableId.1 %tmp.272;
-        symbol [ newDrawableId %newDrawableId.1 183 16 29 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 184 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_186_12_186_48_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_187_12_190_21_switchCase:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 188 16 ]
+        symbol [ newDrawableId %newDrawableId.1 185 16 29 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 186 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_188_12_188_48_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_12_192_21_switchCase:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 190 16 ]
         %tmp.273 = "Nuageux";
         lputv %newText.2 %tmp.273;
-        symbol [ newText %newText.2 188 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 189 16 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_32_189_85_begin:
+        symbol [ newText %newText.2 190 16 23 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 191 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_191_32_191_85_begin:
         %tmp.274 = lgetv %isNight;
-        symbol [ isNight %tmp.274 189 32 39 ];
-        bf %tmp.274 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_32_189_85_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_32_189_85_true:
-        symbol [ Rez %tmp.276 189 42 45 ];
+        symbol [ isNight %tmp.274 191 32 39 ];
+        bf %tmp.274 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_191_32_191_85_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_191_32_191_85_true:
+        symbol [ Rez %tmp.276 191 42 45 ];
         %tmp.276 = getv ? :Rez;
-        symbol [ Drawables %tmp.277 189 46 55 ];
+        symbol [ Drawables %tmp.277 191 46 55 ];
         %tmp.277 = getv %tmp.276 :Drawables;
-        symbol [ BgNubesNoche %tmp.278 189 56 68 ];
+        symbol [ BgNubesNoche %tmp.278 191 56 68 ];
         %tmp.278 = getv %tmp.277 :BgNubesNoche;
         push %tmp.278;
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_32_189_85_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_32_189_85_else_false:
-        symbol [ Rez %tmp.280 189 71 74 ];
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_191_32_191_85_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_191_32_191_85_else_false:
+        symbol [ Rez %tmp.280 191 71 74 ];
         %tmp.280 = getv ? :Rez;
-        symbol [ Drawables %tmp.281 189 75 84 ];
+        symbol [ Drawables %tmp.281 191 75 84 ];
         %tmp.281 = getv %tmp.280 :Drawables;
-        symbol [ BgNubes %tmp.282 189 85 92 ];
+        symbol [ BgNubes %tmp.282 191 85 92 ];
         %tmp.282 = getv %tmp.281 :BgNubes;
         push %tmp.282;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_32_189_85_end:
-        %tmp.283 = phi [%tmp.274 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_32_189_85_begin] [%tmp.278 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_32_189_85_true] [%tmp.282 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_32_189_85_else_false] [%tmp.283 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_189_32_189_85_end];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_191_32_191_85_end:
+        %tmp.283 = phi [%tmp.274 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_191_32_191_85_begin] [%tmp.278 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_191_32_191_85_true] [%tmp.282 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_191_32_191_85_else_false] [%tmp.283 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_191_32_191_85_end];
         lputv %newDrawableId.1 %tmp.283;
-        symbol [ newDrawableId %newDrawableId.1 189 16 29 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 190 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_192_12_192_38_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_193_12_193_39_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_194_12_194_39_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_195_12_198_21_switchCase:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 196 16 ]
+        symbol [ newDrawableId %newDrawableId.1 191 16 29 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 192 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_194_12_194_38_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_195_12_195_39_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_196_12_196_39_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_12_200_21_switchCase:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 198 16 ]
         %tmp.284 = "Brume";
         lputv %newText.2 %tmp.284;
-        symbol [ newText %newText.2 196 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 197 16 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_32_197_85_begin:
+        symbol [ newText %newText.2 198 16 23 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 199 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_199_32_199_85_begin:
         %tmp.285 = lgetv %isNight;
-        symbol [ isNight %tmp.285 197 32 39 ];
-        bf %tmp.285 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_32_197_85_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_32_197_85_true:
-        symbol [ Rez %tmp.287 197 42 45 ];
+        symbol [ isNight %tmp.285 199 32 39 ];
+        bf %tmp.285 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_199_32_199_85_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_199_32_199_85_true:
+        symbol [ Rez %tmp.287 199 42 45 ];
         %tmp.287 = getv ? :Rez;
-        symbol [ Drawables %tmp.288 197 46 55 ];
+        symbol [ Drawables %tmp.288 199 46 55 ];
         %tmp.288 = getv %tmp.287 :Drawables;
-        symbol [ BgNubesNoche %tmp.289 197 56 68 ];
+        symbol [ BgNubesNoche %tmp.289 199 56 68 ];
         %tmp.289 = getv %tmp.288 :BgNubesNoche;
         push %tmp.289;
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_32_197_85_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_32_197_85_else_false:
-        symbol [ Rez %tmp.291 197 71 74 ];
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_199_32_199_85_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_199_32_199_85_else_false:
+        symbol [ Rez %tmp.291 199 71 74 ];
         %tmp.291 = getv ? :Rez;
-        symbol [ Drawables %tmp.292 197 75 84 ];
+        symbol [ Drawables %tmp.292 199 75 84 ];
         %tmp.292 = getv %tmp.291 :Drawables;
-        symbol [ BgNubes %tmp.293 197 85 92 ];
+        symbol [ BgNubes %tmp.293 199 85 92 ];
         %tmp.293 = getv %tmp.292 :BgNubes;
         push %tmp.293;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_32_197_85_end:
-        %tmp.294 = phi [%tmp.285 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_32_197_85_begin] [%tmp.289 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_32_197_85_true] [%tmp.293 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_32_197_85_else_false] [%tmp.294 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_197_32_197_85_end];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_199_32_199_85_end:
+        %tmp.294 = phi [%tmp.285 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_199_32_199_85_begin] [%tmp.289 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_199_32_199_85_true] [%tmp.293 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_199_32_199_85_else_false] [%tmp.294 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_199_32_199_85_end];
         lputv %newDrawableId.1 %tmp.294;
-        symbol [ newDrawableId %newDrawableId.1 197 16 29 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 198 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_200_12_200_40_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_201_12_201_41_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_202_12_205_21_switchCase:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 203 16 ]
+        symbol [ newDrawableId %newDrawableId.1 199 16 29 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 200 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_202_12_202_40_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_203_12_203_41_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_204_12_207_21_switchCase:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 205 16 ]
         %tmp.295 = "Vent";
         lputv %newText.2 %tmp.295;
-        symbol [ newText %newText.2 203 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 204 16 ]
-        symbol [ Rez %tmp.297 204 32 35 ];
+        symbol [ newText %newText.2 205 16 23 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 206 16 ]
+        symbol [ Rez %tmp.297 206 32 35 ];
         %tmp.297 = getv ? :Rez;
-        symbol [ Drawables %tmp.298 204 36 45 ];
+        symbol [ Drawables %tmp.298 206 36 45 ];
         %tmp.298 = getv %tmp.297 :Drawables;
-        symbol [ BgViento %tmp.299 204 46 54 ];
+        symbol [ BgViento %tmp.299 206 46 54 ];
         %tmp.299 = getv %tmp.298 :BgViento;
         lputv %newDrawableId.1 %tmp.299;
-        symbol [ newDrawableId %newDrawableId.1 204 16 29 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 205 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_207_12_210_21_switchCase:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_defaultCodeBegin:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 208 16 ]
+        symbol [ newDrawableId %newDrawableId.1 206 16 29 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 207 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_209_12_212_21_switchCase:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_defaultCodeBegin:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 210 16 ]
         %tmp.300 = "Météo ";
         %tmp.301 = lgetv %condition;
-        symbol [ condition %tmp.301 208 37 46 ];
+        symbol [ condition %tmp.301 210 37 46 ];
         %tmp.302 = add %tmp.300 %tmp.301;
         lputv %newText.2 %tmp.302;
-        symbol [ newText %newText.2 208 16 23 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 209 16 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_209_32_209_85_begin:
+        symbol [ newText %newText.2 210 16 23 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 211 16 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_211_32_211_85_begin:
         %tmp.303 = lgetv %isNight;
-        symbol [ isNight %tmp.303 209 32 39 ];
-        bf %tmp.303 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_209_32_209_85_else_false;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_209_32_209_85_true:
-        symbol [ Rez %tmp.305 209 42 45 ];
+        symbol [ isNight %tmp.303 211 32 39 ];
+        bf %tmp.303 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_211_32_211_85_else_false;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_211_32_211_85_true:
+        symbol [ Rez %tmp.305 211 42 45 ];
         %tmp.305 = getv ? :Rez;
-        symbol [ Drawables %tmp.306 209 46 55 ];
+        symbol [ Drawables %tmp.306 211 46 55 ];
         %tmp.306 = getv %tmp.305 :Drawables;
-        symbol [ BgNubesNoche %tmp.307 209 56 68 ];
+        symbol [ BgNubesNoche %tmp.307 211 56 68 ];
         %tmp.307 = getv %tmp.306 :BgNubesNoche;
         push %tmp.307;
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_209_32_209_85_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_209_32_209_85_else_false:
-        symbol [ Rez %tmp.309 209 71 74 ];
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_211_32_211_85_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_211_32_211_85_else_false:
+        symbol [ Rez %tmp.309 211 71 74 ];
         %tmp.309 = getv ? :Rez;
-        symbol [ Drawables %tmp.310 209 75 84 ];
+        symbol [ Drawables %tmp.310 211 75 84 ];
         %tmp.310 = getv %tmp.309 :Drawables;
-        symbol [ BgNubes %tmp.311 209 85 92 ];
+        symbol [ BgNubes %tmp.311 211 85 92 ];
         %tmp.311 = getv %tmp.310 :BgNubes;
         push %tmp.311;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_209_32_209_85_end:
-        %tmp.312 = phi [%tmp.303 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_209_32_209_85_begin] [%tmp.307 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_209_32_209_85_true] [%tmp.311 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_209_32_209_85_else_false] [%tmp.312 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_209_32_209_85_end];
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_211_32_211_85_end:
+        %tmp.312 = phi [%tmp.303 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_211_32_211_85_begin] [%tmp.307 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_211_32_211_85_true] [%tmp.311 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_211_32_211_85_else_false] [%tmp.312 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_211_32_211_85_end];
         lputv %newDrawableId.1 %tmp.312;
-        symbol [ newDrawableId %newDrawableId.1 209 16 29 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 210 16 ]
-        goto break @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_127_8_211_8_switchStmtEnd:
+        symbol [ newDrawableId %newDrawableId.1 211 16 29 ];
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 212 16 ]
+        goto break @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_128_8_213_8_switchStmtEnd:
         pop;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 214 8 ]
-        symbol [ Rez %tmp.314 214 24 27 ];
-        %tmp.314 = getv ? :Rez;
-        symbol [ Drawables %tmp.315 214 28 37 ];
-        %tmp.315 = getv %tmp.314 :Drawables;
-        symbol [ BgSol %tmp.316 214 38 43 ];
-        %tmp.316 = getv %tmp.315 :BgSol;
-        lputv %newDrawableId.1 %tmp.316;
-        symbol [ newDrawableId %newDrawableId.1 214 8 21 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 215 8 ]
-        %tmp.317 = "Dégagé";
-        lputv %newText.2 %tmp.317;
-        symbol [ newText %newText.2 215 8 15 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 216 8 ]
-        symbol [ Graphics %tmp.318 216 19 27 ];
-        %tmp.318 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.319 216 28 39 ];
-        %tmp.319 = getv %tmp.318 :COLOR_BLACK;
-        lputv %newColor.3 %tmp.319;
-        symbol [ newColor %newColor.3 216 8 16 ];
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 220 8 ]
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_220_8_223_8_if_stmt:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 216 8 ]
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_216_8_219_8_if_stmt:
+        %tmp.313 = lgetv %newDrawableId.1;
+        symbol [ newDrawableId %tmp.313 216 12 25 ];
+        symbol [ _cachedDrawableId %tmp.315 216 29 46 ];
+        %tmp.315 = getv ? :_cachedDrawableId;
+        %tmp.316 = ne %tmp.313 %tmp.315;
+        bf %tmp.316 @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_216_8_219_8_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_216_8_219_8_if_true:
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_216_48_219_8_start:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 217 12 ]
+        %tmp.317 = lgetv %newDrawableId.1;
+        symbol [ newDrawableId %tmp.317 217 32 45 ];
+        symbol [ _cachedDrawableId ? 217 12 29 ];
+        putv self :_cachedDrawableId %tmp.317;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 218 12 ]
+        symbol [ WatchUi %tmp.318 218 28 35 ];
+        %tmp.318 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.319 218 36 48 ];
+        %tmp.319 = getv function %tmp.318 :loadResource;
         %tmp.320 = lgetv %newDrawableId.1;
-        symbol [ newDrawableId %tmp.320 220 12 25 ];
-        symbol [ _cachedDrawableId %tmp.322 220 29 46 ];
-        %tmp.322 = getv ? :_cachedDrawableId;
-        %tmp.323 = ne %tmp.320 %tmp.322;
-        bf %tmp.323 @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_220_8_223_8_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_220_8_223_8_if_true:
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_220_48_223_8_start:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 221 12 ]
-        %tmp.324 = lgetv %newDrawableId.1;
-        symbol [ newDrawableId %tmp.324 221 32 45 ];
-        symbol [ _cachedDrawableId ? 221 12 29 ];
-        putv self :_cachedDrawableId %tmp.324;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 222 12 ]
-        symbol [ WatchUi %tmp.325 222 28 35 ];
-        %tmp.325 = getm $.Toybox.WatchUi;
-        symbol [ loadResource %tmp.326 222 36 48 ];
-        %tmp.326 = getv function %tmp.325 :loadResource;
-        %tmp.327 = lgetv %newDrawableId.1;
-        symbol [ newDrawableId %tmp.327 222 49 62 ];
-        %tmp.328 = invoke %tmp.325 %tmp.326(%tmp.327);
-        symbol [ _cachedBitmap ? 222 12 25 ];
-        putv self :_cachedBitmap %tmp.328;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_220_48_223_8_stop:
-        goto @D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_220_8_223_8_if_end;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_220_8_223_8_if_end:
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 225 8 ]
-        %tmp.329 = lgetv %newText.2;
-        symbol [ newText %tmp.329 225 29 36 ];
-        symbol [ _cachedWeatherText ? 225 8 26 ];
-        putv self :_cachedWeatherText %tmp.329;
-[ "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 226 8 ]
-        %tmp.330 = lgetv %newColor.3;
-        symbol [ newColor %tmp.330 226 27 35 ];
-        symbol [ _cachedFontColor ? 226 8 24 ];
-        putv self :_cachedFontColor %tmp.330;
-D__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_122_92_227_4_stop:
+        symbol [ newDrawableId %tmp.320 218 49 62 ];
+        %tmp.321 = invoke %tmp.318 %tmp.319(%tmp.320);
+        symbol [ _cachedBitmap ? 218 12 25 ];
+        putv self :_cachedBitmap %tmp.321;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_216_48_219_8_stop:
+        goto @d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_216_8_219_8_if_end;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_216_8_219_8_if_end:
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 221 8 ]
+        %tmp.322 = lgetv %newText.2;
+        symbol [ newText %tmp.322 221 29 36 ];
+        symbol [ _cachedWeatherText ? 221 8 26 ];
+        putv self :_cachedWeatherText %tmp.322;
+[ "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc" 222 8 ]
+        %tmp.323 = lgetv %newColor.3;
+        symbol [ newColor %tmp.323 222 27 35 ];
+        symbol [ _cachedFontColor ? 222 8 24 ];
+        putv self :_cachedFontColor %tmp.323;
+d__ProgramacionAutodidacta_Garmin_Meteo_ClimaWatch_source_ClimaWatchView_mc_123_92_223_4_stop:
     }
 }
-[ @file = "D:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 1; ]
+[ @file = "d:\ProgramacionAutodidacta\Garmin\Meteo\ClimaWatch\source\ClimaWatchView.mc"; @line = 1; ]
 <init> {
 }
